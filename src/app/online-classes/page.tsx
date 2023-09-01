@@ -1,3 +1,3 @@
-export default function OnlineClassesPage() {
+export default function Page() {
   return <></>;
 }

@@ -1,3 +1,3 @@
-export default function ImprintPage() {
+export default function Page() {
   return <></>;
 }

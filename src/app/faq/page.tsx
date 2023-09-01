@@ -1,3 +1,3 @@
-export default function FaqPage() {
+export default function Page() {
   return <></>;
 }

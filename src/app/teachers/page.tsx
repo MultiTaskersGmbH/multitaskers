@@ -1,3 +1,3 @@
-export default function TeachersPage() {
+export default function Page() {
   return <></>;
 }
