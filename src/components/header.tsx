@@ -7,9 +7,9 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
-import logo from "public/logo.png";
-
 import dictionarie from "@/dictionaries/header.json";
+
+const logo = "/logo.png";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -29,7 +29,7 @@ export default function Header() {
           >
             <span className="sr-only">{dictionarie.logoSrOnly["en-GB"]}</span>
             <Image
-              className="h-8 w-auto"
+              className="h-10 w-auto"
               src={logo}
               alt={dictionarie.logoImageAlt["en-GB"]}
               width={500}
@@ -86,6 +86,8 @@ export default function Header() {
                 className="h-8 w-auto"
                 src={logo}
                 alt={dictionarie.logoImageAlt["en-GB"]}
+                width={500}
+                height={500}
               />
             </Link>
             <button
