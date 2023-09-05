@@ -1,0 +1,41 @@
+{
+  "logoSrOnly": {
+    "en-GB": "MultiTaskers Language School",
+    "ru-RU": "Мультиязычная Школа MultiTaskers"
+  },
+  "logoImageAlt": {
+    "en-GB": "Logo MultiTaskers Language School",
+    "ru-RU": "Логотип Мультиязычная Школа MultiTaskers"
+  },
+  "navigation": [
+    {
+      "name": {
+        "en-GB": "FAQ",
+        "ru-RU": "FAQ"
+      },
+      "href": "/faq"
+    },
+    {
+      "name": {
+        "en-GB": "Teachers",
+        "ru-RU": "Преподаватели"
+      },
+      "href": "/teachers"
+    }
+  ],
+  "linkPrimary": {
+    "name": {
+      "en-GB": "Online courses",
+      "ru-RU": "Онлайн-курсы"
+    },
+    "href": "/online-courses"
+  },
+  "menuOpenSrOnly": {
+    "en-GB": "Open main menu",
+    "ru-RU": "Открыть главное меню"
+  },
+  "menuCloseSrOnly": {
+    "en-GB": "Close main menu",
+    "ru-RU": "Закрыть главное меню"
+  }
+}
