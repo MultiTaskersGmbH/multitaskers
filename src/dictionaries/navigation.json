@@ -1,0 +1,76 @@
+{
+  "logoSrOnly": {
+    "en-GB": "MultiTaskers Language School",
+    "ru-RU": "Мультиязычная Школа MultiTaskers"
+  },
+  "logoImageAlt": {
+    "en-GB": "Logo MultiTaskers Language School",
+    "ru-RU": "Логотип Мультиязычная Школа MultiTaskers"
+  },
+  "navigation": {
+    "homepage": {
+      "name": {
+        "en-GB": "Homepage",
+        "ru-RU": "Домашняя страница"
+      },
+      "href": "/"
+    },
+    "faq": {
+      "name": {
+        "en-GB": "FAQ",
+        "ru-RU": "FAQ"
+      },
+      "href": "/faq"
+    },
+    "teachers": {
+      "name": {
+        "en-GB": "Teachers",
+        "ru-RU": "Преподаватели"
+      },
+      "href": "/teachers"
+    },
+    "onlineCourses": {
+      "name": {
+        "en-GB": "Online courses",
+        "ru-RU": "Онлайн-курсы"
+      },
+      "href": "/online-courses"
+    },
+    "contact": {
+      "name": {
+        "en-GB": "Contact",
+        "ru-RU": "Контакты"
+      },
+      "href": "/contact"
+    },
+    "imprint": {
+      "name": {
+        "en-GB": "Imprint",
+        "ru-RU": "Оттиск"
+      },
+      "href": "/imprint"
+    },
+    "privacyPolicy": {
+      "name": {
+        "en-GB": "Privacy policy",
+        "ru-RU": "Политика конфиденциальности"
+      },
+      "href": "/privacy-policy"
+    },
+    "termsAndConditions": {
+      "name": {
+        "en-GB": "Terms and conditions",
+        "ru-RU": "Условия и положения"
+      },
+      "href": "/terms-and-conditions"
+    }
+  },
+  "menuOpenSrOnly": {
+    "en-GB": "Open main menu",
+    "ru-RU": "Открыть главное меню"
+  },
+  "menuCloseSrOnly": {
+    "en-GB": "Close main menu",
+    "ru-RU": "Закрыть главное меню"
+  }
+}
