@@ -39,7 +39,7 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 md:px-10">
         <div className="mt-20">
           <nav
-            className="columns-2 flex justify-center gap-8 flex-wrap"
+            className="flex flex-wrap justify-center gap-8"
             aria-label="Footer"
           >
             <Link

@@ -14,19 +14,11 @@ const logo = "/logo.png";
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const navigation = dictionarie.navigation;
-
   return (
     <header className="bg-white">
-      <div className="mx-auto max-w-7xl px-6 md:px-10">
-        <nav
-          className="flex justify-between py-4 border-b border-gray-400"
-          aria-label="Global"
-        >
-          <Link
-            href="/"
-            className="-m-1.5 p-1.5"
-          >
+      <div className="mx-auto max-w-7xl border-b border-gray-400 px-6 md:px-10">
+        <nav className="flex justify-between py-4" aria-label="Global">
+          <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">{dictionarie.logoSrOnly["en-GB"]}</span>
             <Image
               className="h-10 w-auto"
@@ -45,10 +37,7 @@ export default function Header() {
               <span className="sr-only">
                 {dictionarie.menuOpenSrOnly["en-GB"]}
               </span>
-              <Bars3Icon
-                className="h-6 w-6"
-                aria-hidden="true"
-              />
+              <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
           <div className="hidden lg:flex lg:items-center lg:gap-x-12">
@@ -92,10 +81,7 @@ export default function Header() {
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-4 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <Link
-              href="/"
-              className="-m-1.5 p-1.5"
-            >
+            <Link href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">{dictionarie.logoSrOnly["en-GB"]}</span>
               <Image
                 className="h-10 w-auto"
@@ -113,10 +99,7 @@ export default function Header() {
               <span className="sr-only">
                 {dictionarie.menuCloseSrOnly["en-GB"]}
               </span>
-              <XMarkIcon
-                className="h-6 w-6"
-                aria-hidden="true"
-              />
+              <XMarkIcon className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
           <div className="mt-6 flow-root">
