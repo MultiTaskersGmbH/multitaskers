@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "title": {
+      "en-US": "MultiTaskers Language School",
+      "ru-RU": "MultiTaskers Языковая школа"
+    },
+    "description": {
+      "en-US": "MultiTaskers is a young and fast-growing online language school that offers a wide variety of language learning programmes, varying in type, time and frequency of lessons. What they have in common, however, is that they are all aimed at achieving results so that you and your children can learn to speak and think in a foreign language.",
+      "ru-RU": "MultiTaskers - молодая и быстро развивающаяся языковая онлайн-школа, которая предлагает широкий спектр программ изучения языка, различающихся по типу, времени и частоте занятий. Однако их объединяет то, что все они направлены на достижение результата, чтобы вы и ваши дети научились говорить и думать на иностранном языке."
+    }
+  },
+  "heroSection": {
+    "heading": {
+      "en-GB": "Learn a language with MultiTaskers",
+      "ru-RU": "Изучайте язык c MultiTaskers"
+    },
+    "description": {
+      "en-GB": "MultiTaskers is a young and fast-growing online language school that offers a wide variety of language learning programmes, varying in type, time and frequency of lessons. What they have in common, however, is that they are all aimed at achieving results so that you or your children can learn to speak and think in a foreign language.",
+      "ru-RU": "MultiTaskers - молодая и быстро развивающаяся языковая онлайн-школа, которая предлагает широкий спектр программ изучения языка, различающихся по типу, времени и частоте занятий. Однако их объединяет то, что все они направлены на достижение результата, чтобы вы или ваши дети научились говорить и думать на иностранном языке."
+    },
+    "linkButton": {
+      "en-GB": "All online classes",
+      "ru-RU": "Bce онлайн занятия"
+    },
+    "imageAlt": {
+      "en-GB": "MultiTaskers teachers in a video meeting.",
+      "ru-RU": "Многозадачные учителя на видеовстрече."
+    }
+  },
+  "onlineClassesSection": {
+    "heading": {
+      "en-GB": "Online classes",
+      "ru-RU": "Онлайн занятия"
+    },
+    "title": {
+      "en-GB": "A broad selection of online classes",
+      "ru-RU": "Широкий выбор онлайн занятий"
+    },
+    "description": {
+      "en-GB": "We offer a wide variety of language learning programmes, varying in type, time and frequency of lessons. What they have in common, however, is that they are all aimed at achieving results so that you and your children can learn to speak and think in a foreign language.",
+      "ru-RU": "Мы предлагаем широкий спектр программ изучения языка, различающихся по типу, времени и частоте занятий. Однако их объединяет то, что все они направлены на достижение результата, чтобы вы и ваши дети научились говорить и думать на иностранном языке."
+    },
+    "linkButton": {
+      "en-GB": "All online classes",
+      "ru-RU": "Все онлайн занятия"
+    }
+  },
+  "benefitsSection": {
+    "title": {
+      "en-GB": "Why choose MultiTaskers",
+      "ru-RU": "Почему выбирают MultiTaskers"
+    },
+    "list": [
+      {
+        "title": {
+          "en-GB": "Lessons with 100% student involvement",
+          "ru-RU": "Уроки со 100% вовлечением учеников"
+        },
+        "description": {
+          "en-GB": "Our lessons are a quest in which everyone participates with interest and enjoyment. They also look forward to the next lesson. Only interest can provide the motivation needed to learn new things.",
+          "ru-RU": "Наши уроки — это квест, в котором все участвуют с интересом и удовольствием. А также с нетерпением ждут следующего урока. Только интерес может дать мотивацию к познанию нового."
+        }
+      },
+      {
+        "title": {
+          "en-GB": "Experienced teachers with specialist training",
+          "ru-RU": "Опытные преподаватели с профильным образованием"
+        },
+        "description": {
+          "en-GB": "A teacher is a guide to the world of knowledge. Our team is made up of professionals with more than 10,000 hours of teaching experience. A teaching credential is an understanding of the basics of age psychology and the ability to construct a lesson.",
+          "ru-RU": "Преподаватель- это проводник в мир знаний. В нашей Команде работают профессионалы с педагогическим образованием и практической работой более 10 тыс. часов. Диплом преподавателя — это понимание основ возрастной психологии и умение правильно построить урок."
+        }
+      },
+      {
+        "title": {
+          "en-GB": "Individual approach to each student",
+          "ru-RU": "Познание нового материала в интерактивной форме"
+        },
+        "description": {
+          "en-GB": "New material is presented in a way that sometimes makes parents wonder how they can sing songs, play games, and still learn serious grammatical constructions, while adults say that new material is memorized quite easily and spontaneously. With us it is possible!",
+          "ru-RU": "Новый материал преподносится так, что иногда родители удивляются как можно петь песни,играть игры — и при этом изучать серьезные грамматические конструкци, а взрослые говорят, что новый материал запоминается легко , как-то само собой. С нами это возможно!"
+        }
+      },
+      {
+        "title": {
+          "en-GB": "Good lesson structure",
+          "ru-RU": "Грамотная структура урока"
+        },
+        "description": {
+          "en-GB": "The lesson structure takes into account all 4 aspects of foreign language learning - speaking, listening, reading and listening comprehension. The timing of the lesson is based on age-appropriate psychological norms for concentration of attention.",
+          "ru-RU": "Структура урока учитывает все 4 аспекта изучения иностранного языка— говорение, слушание, чтение и восприятие на слух. Тайминг урока опирается нa психологические возрастные нормы концектрации внимания."
+        }
+      },
+      {
+        "title": {
+          "en-GB": "The main thing we will teach you is to speak the foreign language",
+          "ru-RU": "Главное, чему  мы вас научим - это говорить на иностранном языкe"
+        },
+        "description": {
+          "en-GB": "The speaking aspect is considered to be one of the hardest to achieve. You can learn a language for years but still not speak it. We guarantee that with us you will speak from the very first lessons!",
+          "ru-RU": "Считается, что именно аспект говорения  - один из труднодостижимых. Можно учить язык годами, но так и не заговорить на нем. Мы гарантируем, что с нами вы заговорите уже начиная с первых уроков!"
+        }
+      },
+      {
+        "title": {
+          "en-GB": "Modern teaching methods",
+          "ru-RU": "Современные методики обучения"
+        },
+        "description": {
+          "en-GB": "Teaching today with boring textbooks and rote learning of new words is doomed to failure! Only by keeping up with the times will we be able to remain relevant - in everyday life as well as professionally. Innovative materials and our own developments are the basis for the lessons at our school.",
+          "ru-RU": "Обучая сегoдня по скучными учебниками и методу зубрежки новых слов-это обречено на провал! Только шагая в ногу со временем, мы можем оставаться востребованными - как в обычной жизни, так и в профессиональной. Инновационные материалы и  собственные разработки - это основа занятий в нашей школе."
+        }
+      }
+    ]
+  },
+  "teachersSection": {
+    "heading": {
+      "en-GB": "Our teachers",
+      "ru-RU": "Наши учителя"
+    },
+    "title": {
+      "en-GB": "Learn live from experienced language teachers",
+      "ru-RU": "Учитесь в прямом эфире y опытных преподавателей иностранных языков"
+    },
+    "description": {
+      "en-GB": "MultiTaskers offers a wide range of online and offline language courses to meet your individual needs and desires. At MultiTaskers, you will learn in a fun atmosphere that is conducive to learning.",
+      "ru-RU": "MultiTaskers предлагает широкий спектр онлайн и офлайн языковых курсов, отвечающих вашим индивидуальным потребностям и желаниям. В MultiTaskers вы будете учиться в веселой атмосфере, располагающей к обучению."
+    },
+    "linkButton": {
+      "en-GB": "Our teachers",
+      "ru-RU": "Наши учителя"
+    },
+    "imageAlt": {
+      "en-GB": "MultiTaskers Teachers",
+      "ru-RU": "Преподаватели MultiTaskers"
+    }
+  }
+}

@@ -1,0 +1,442 @@
+{
+  "meta": {
+    "title": {
+      "en-GB": "Teachers - MultiTaskers Language School",
+      "ru-RU": "Teachers - MultiTaskers Language School"
+    },
+    "description": {
+      "en-GB": "Meet our dedicated team of experienced language instructors at MultiTaskers Language School! Discover the diverse backgrounds, teaching styles, and expertise that make our teachers the key to your success in learning and mastering a foreign language.",
+      "ru-RU": "Познакомьтесь c нашей командой опытных преподавателей в языковой школе MultiTaskers! Откройте для себя разнообразие опыта, стилей преподавания и знаний, которые делают наших преподавателей ключом к вашему успеху в изучении и освоении иностранного языка."
+    }
+  },
+  "teachersTitle": {
+    "en-GB": "Meet our teachers",
+    "ru-RU": "Познакомьтесь c нашими преподавателями"
+  },
+  "teachersDescription": {
+    "en-GB": "Our teachers are native speakers of the language they teach. They are experienced, dedicated, and passionate about teaching. They are also friendly, patient, and supportive. They will help you achieve your language learning goals and make learning fun and enjoyable.",
+    "ru-RU": "Наши преподаватели — носители языка, который они преподают. Они опытные, преданные и любящие свою работу. Они также дружелюбны, терпеливы и поддерживающие. Они помогут вам достичь ваших целей в изучении языка и сделают изучение языка веселым и приятным."
+  },
+  "teachersList": [
+    {
+      "id": 1,
+      "image": "/teachers/aline.jpeg",
+      "imageAlt": {
+        "en-GB": "Aline, a teacher at MultiTaskers Language School",
+        "ru-RU": "Алина, преподаватель языковой школы MultiTaskers"
+      },
+      "firstName": "Aline",
+      "age": {
+        "en-GB": ["Adults", "Teens"],
+        "ru-RU": ["Взрослые", "Подростки"]
+      },
+      "languages": {
+        "en-GB": ["German"],
+        "ru-RU": ["Немецкий"]
+      },
+      "experience": {
+        "en-GB": "Specializing in phonetics and accent reduction, I offer German courses for adults and teens. With my 1.5-year experience as a speech therapist, I conduct pronunciation courses from A1 to C1, and teach both individually and in groups, online and offline.",
+        "ru-RU": "Специализируясь на фонетике и снижении акцента, я предлагаю курсы немецкого для взрослых и подростков. Используя свой 1.5-летний опыт работы логопедом, я провожу курсы по произношению от A1 до C1, обучаю как индивидуально, так и в группах, онлайн и офлайн."
+      }
+    },
+    {
+      "id": 2,
+      "image": "/teachers/ana.jpeg",
+      "imageAlt": {
+        "en-GB": "Ana, a teacher at MultiTaskers Language School",
+        "ru-RU": "Ана, преподаватель языковой школы MultiTaskers"
+      },
+      "firstName": "Ana",
+      "ageGroups": {
+        "en-GB": ["Adults"],
+        "ru-RU": ["Взрослые"]
+      },
+      "languages": {
+        "en-GB": ["German"],
+        "ru-RU": ["Немецкий"]
+      },
+      "experience": {
+        "en-GB": "As a German instructor for adults, I cover A1 to C1 levels. Additionally, I help students prepare for Telc/DSH II and provide conversational courses. I also manage individual and group lessons.",
+        "ru-RU": "Работая инструктором по немецкому для взрослых, я охватываю все уровни от A1 до C1. Также помогаю студентам готовиться к Telc/DSH II и провожу разговорные курсы. Уроки провожу как индивидуально, так и для групп."
+      }
+    },
+    {
+      "id": 3,
+      "image": "/teachers/andi.jpeg",
+      "imageAlt": {
+        "en-GB": "Andi, a teacher at MultiTaskers Language School",
+        "ru-RU": "Энди, преподаватель языковой школы MultiTaskers"
+      },
+      "firstName": "Andi",
+      "age": {
+        "en-GB": ["Adults", "Teens"],
+        "ru-RU": ["Взрослые", "Подростки"]
+      },
+      "languages": {
+        "en-GB": ["English"],
+        "ru-RU": ["Английский"]
+      },
+      "experience": {
+        "en-GB": "In my courses, adults and teens learn general and business English from A1 to C1. Additionally, I host conversational classes and offer both one-on-one and group lessons, both online and offline.",
+        "ru-RU": "На моих курсах взрослые и подростки изучают общий и деловой английский c A1 до C1. Также я провожу разговорные занятия и предлагаю как индивидуальные, так и групповые уроки, онлайн и офлайн."
+      }
+    },
+    {
+      "id": 4,
+      "image": "/teachers/angelina.jpeg",
+      "imageAlt": {
+        "en-GB": "Angelina, a teacher at MultiTaskers Language School",
+        "ru-RU": "Ангелина, преподаватель языковой школы MultiTaskers"
+      },
+      "firstName": "Angelina",
+      "age": {
+        "en-GB": ["Adults", "Teens", "Kids"],
+        "ru-RU": ["Взрослые", "Подростки", "Дети"]
+      },
+      "languages": {
+        "en-GB": ["German"],
+        "ru-RU": ["Немецкий"]
+      },
+      "experience": {
+        "en-GB": "Working with all age groups, I offer individual and group German lessons at all levels.",
+        "ru-RU": "Работая co всеми возрастными группами, я предлагаю индивидуальные и групповые уроки немецкого на всех уровнях."
+      }
+    },
+    {
+      "id": 5,
+      "image": "/teachers/antonia.jpeg",
+      "imageAlt": {
+        "en-GB": "Antonia, a teacher at MultiTaskers Language School",
+        "ru-RU": "Антония, преподаватель языковой школы MultiTaskers"
+      },
+      "firstName": "Antonia",
+      "age": {
+        "en-GB": ["Adults", "Teens", "Kids"],
+        "ru-RU": ["Взрослые", "Подростки", "Дети"]
+      },
+      "languages": {
+        "en-GB": ["German", "English"],
+        "ru-RU": ["Немецкий", "Английский"]
+      },
+      "experience": {
+        "en-GB": "In addition to providing in-person German A2 and B1 classes, I also teach all levels online. Moreover, I tutor children in English and German, in both group and individual settings.",
+        "ru-RU": "Помимо проведения очных классов по немецкому языку A2 и B1, я также преподаю все уровни онлайн. Кроме того, я занимаюсь репетиторством по английскому и немецкому для детей, как в группах, так и индивидуально."
+      }
+    },
+    {
+      "id": 6,
+      "image": "/teachers/ekaterina.jpeg",
+      "imageAlt": {
+        "en-GB": "Ekaterina, a teacher at MultiTaskers Language School",
+        "ru-RU": "Екатерина, преподаватель языковой школы MultiTaskers"
+      },
+      "firstName": "Ekaterina",
+      "age": {
+        "en-GB": ["Adults", "Teens", "Kids"],
+        "ru-RU": ["Взрослые", "Подростки", "Дети"]
+      },
+      "languages": {
+        "en-GB": ["German", "Russian"],
+        "ru-RU": ["Немецкий", "Pyccкий"]
+      },
+      "experience": {
+        "en-GB": "Armed with linguistic and pedagogical education, I've been teaching German and Russian to all age groups for five years now.",
+        "ru-RU": "Обладая лингвистическим и педагогическим образованием, я уже пять лет преподаю немецкий и русский для всех возрастных групп."
+      }
+    },
+    {
+      "id": 7,
+      "image": "/teachers/elisabeth.jpeg",
+      "imageAlt": {
+        "en-GB": "Elisabeth, a teacher at MultiTaskers Language School",
+        "ru-RU": "Элизабет, преподаватель языковой школы MultiTaskers"
+      },
+      "firstName": "Elisabeth",
+      "age": {
+        "en-GB": ["Teens", "Kids"],
+        "ru-RU": ["Подростки", "Дети"]
+      },
+      "languages": {
+        "en-GB": ["English"],
+        "ru-RU": ["Английский"]
+      },
+      "experience": {
+        "en-GB": "For over two years now, I've been conducting online English courses specifically tailored for kids and teens.",
+        "ru-RU": "Уже более двух лет я провожу онлайн-курсы английского языка, специально адаптированные для детей и подростков."
+      }
+    },
+    {
+      "id": 8,
+      "image": "/teachers/kosuta.jpeg",
+      "imageAlt": {
+        "en-GB": "Košuta, a teacher at MultiTaskers Language School",
+        "ru-RU": "Кошута, преподаватель языковой школы MultiTaskers"
+      },
+      "firstName": "Košuta",
+      "age": {
+        "en-GB": ["Adults", "Teens", "Kids"],
+        "ru-RU": ["Взрослые", "Подростки", "Дети"]
+      },
+      "languages": {
+        "en-GB": ["Italian", "Croation"],
+        "ru-RU": ["Итальянский", "хорватский"]
+      },
+      "experience": {
+        "en-GB": "With over five years of experience, I have been conducting Italian courses for both children and adults, and Croatian courses specifically for children.",
+        "ru-RU": "Более пяти лет я провожу курсы итальянского для детей и взрослых, a также курсы хорватского для детей."
+      }
+    },
+    {
+      "id": 9,
+      "image": "/teachers/kristina.jpeg",
+      "imageAlt": {
+        "en-GB": "Kristina, a teacher at MultiTaskers Language School",
+        "ru-RU": "Кристина, преподаватель языковой школы MultiTaskers"
+      },
+      "firstName": "Kristina",
+      "age": {
+        "en-GB": ["Adults", "Teens", "Kids"],
+        "ru-RU": ["Взрослые", "Подростки", "Дети"]
+      },
+      "languages": {
+        "en-GB": ["German", "English"],
+        "ru-RU": ["Немецкий", "Английский"]
+      },
+      "experience": {
+        "en-GB": "Offering both on- & offline German courses for kids and adults, I cover A1 to C1 levels. My lessons include TestDaF preparation, conversational courses, and regional & cultural studies. I hold a Master's degree in linguistics and DAFLL and TESOL certificates.",
+        "ru-RU": "Предлагая как онлайн, так и офлайн курсы немецкого для детей и взрослых, я охватываю уровни от A1 до C1. Мои уроки включают подготовку к TestDaF, разговорные курсы и курсы региональных и культурных исследований. У меня есть магистерская степень по лингвистике и сертификаты DAFLL и TESOL."
+      }
+    },
+    {
+      "id": 10,
+      "image": "/teachers/lovely.jpeg",
+      "imageAlt": {
+        "en-GB": "Lovely Coolen, a teacher at MultiTaskers Language School",
+        "ru-RU": "Лавли Кулен, преподаватель языковой школы MultiTaskers"
+      },
+      "firstName": "Lovely Coolen",
+      "age": {
+        "en-GB": ["Adults", "Teens", "Kids"],
+        "ru-RU": ["Взрослые", "Подростки", "Дети"]
+      },
+      "languages": {
+        "en-GB": ["Bisaya", "Tagalog", "English"],
+        "ru-RU": ["Бисайя", "тагалог", "Английский"]
+      },
+      "experience": {
+        "en-GB": "As a volunteer Sunday School teacher for three years now, I've been teaching basic Bisaya, as well as Tagalog and English to people of all ages.",
+        "ru-RU": "Будучи волонтером-учителем в воскресной школе уже три года, я преподаю основы бисайского, a также тагальского и английского для людей всех возрастов."
+      }
+    },
+    {
+      "id": 11,
+      "image": "/teachers/nina.jpeg",
+      "imageAlt": {
+        "en-GB": "Nina, a teacher at MultiTaskers Language School",
+        "ru-RU": "Нина, преподаватель языковой школы MultiTaskers"
+      },
+      "firstName": "Nina",
+      "age": {
+        "en-GB": ["Adults", "Teens", "Kids"],
+        "ru-RU": ["Взрослые", "Подростки", "Дети"]
+      },
+      "languages": {
+        "en-GB": ["English"],
+        "ru-RU": ["Английский"]
+      },
+      "experience": {
+        "en-GB": "With 10 years of tutoring and 8 years of school teaching experience, I've been conducting online General English courses for adults at levels A1 to C1, and offering both individual and group lessons.",
+        "ru-RU": "Имея 10-летний опыт работы репетитором и 8 лет преподавания в школе, я провожу онлайн-курсы общего английского для взрослых на уровнях от A1 до C1 и предлагаю как индивидуальные, так и групповые занятия."
+      }
+    },
+    {
+      "id": 12,
+      "image": "/teachers/noemi.jpeg",
+      "imageAlt": {
+        "en-GB": "Noemi, a teacher at MultiTaskers Language School",
+        "ru-RU": "Ноэми, преподаватель языковой школы MultiTaskers"
+      },
+      "firstName": "Noemi",
+      "age": {
+        "en-GB": ["Adults"],
+        "ru-RU": ["Взрослые"]
+      },
+      "languages": {
+        "en-GB": ["German"],
+        "ru-RU": ["Немецкий"]
+      },
+      "experience": {
+        "en-GB": "Serving adults with both on- and offline German courses, I cover from A1 to B1 levels. My services also include both individual and group tuition.",
+        "ru-RU": "Предоставляя взрослым как онлайн, так и офлайн курсы немецкого, я охватываю уровни от A1 до B1. Мои услуги также включают как индивидуальное обучение, так и групповые занятия."
+      }
+    },
+    {
+      "id": 13,
+      "image": "/teachers/oksana.jpeg",
+      "imageAlt": {
+        "en-GB": "Oksana, a teacher at MultiTaskers Language School",
+        "ru-RU": "Оксана, преподаватель языковой школы MultiTaskers"
+      },
+      "firstName": "Oksana",
+      "age": {
+        "en-GB": ["Adults", "Teens", "Kids"],
+        "ru-RU": ["Взрослые", "Подростки", "Дети"]
+      },
+      "languages": {
+        "en-GB": ["English", "French"],
+        "ru-RU": ["Английский", "французский"]
+      },
+      "experience": {
+        "en-GB": "With 13 years of experience, I've been teaching German to preschoolers, schoolers, teens, and adults at schools, kindergartens, and kids' centres.",
+        "ru-RU": "Имея 13-летний опыт, я преподаю немецкий дошкольникам, школьникам, подросткам и взрослым в школах, детских садах и детских центрах."
+      }
+    },
+    {
+      "id": 14,
+      "image": "/teachers/paul.jpeg",
+      "imageAlt": {
+        "en-GB": "Paul, a teacher at MultiTaskers Language School",
+        "ru-RU": "Павел, преподаватель языковой школы MultiTaskers"
+      },
+      "firstName": "Paul",
+      "age": {
+        "en-GB": ["Adults", "Teens", "Kids"],
+        "ru-RU": ["Взрослые", "Подростки", "Дети"]
+      },
+      "languages": {
+        "en-GB": ["German", "Chinese"],
+        "ru-RU": ["Немецкий", "Китайский"]
+      },
+      "experience": {
+        "en-GB": "I have been offering German courses for children and adults at all Goethe Zertifikat levels, having passed all exams (TestDaF, Telc). I conduct conversational courses, regional and cultural studies courses, and provide individual and group lessons.",
+        "ru-RU": "Я предлагаю курсы немецкого для детей и взрослых всех уровней Goethe Zertifikat, сдав все экзамены (TestDaF, Telc). Я провожу разговорные курсы, курсы региональных и культурных исследований, и предоставляю индивидуальные и групповые занятия."
+      }
+    },
+    {
+      "id": 15,
+      "image": "/teachers/polina.jpeg",
+      "imageAlt": {
+        "en-GB": "Polina, a teacher at MultiTaskers Language School",
+        "ru-RU": "Полина, преподаватель языковой школы MultiTaskers"
+      },
+      "firstName": "Polina",
+      "age": {
+        "en-GB": ["Adults", "Teens", "Kids"],
+        "ru-RU": ["Взрослые", "Подростки", "Дети"]
+      },
+      "languages": {
+        "en-GB": ["German", "English"],
+        "ru-RU": ["Немецкий", "Английский"]
+      },
+      "experience": {
+        "en-GB": "I specialize in teaching English and German to all age groups and provide individual and group lessons for all levels (A1.1 - C1.1). Additionally, I prepare students for IELTS and Test DaF.",
+        "ru-RU": "Я специализируюсь на преподавании английского и немецкого для всех возрастных групп и предлагаю индивидуальные и групповые уроки на всех уровнях (A1.1 - C1.1). Кроме того, я готовлю студентов к IELTS и Test DaF."
+      }
+    },
+    {
+      "id": 16,
+      "image": "/teachers/samira.jpeg",
+      "imageAlt": {
+        "en-GB": "Samira, a teacher at MultiTaskers Language School",
+        "ru-RU": "Самира, преподаватель языковой школы MultiTaskers"
+      },
+      "firstName": "Samira",
+      "age": {
+        "en-GB": ["Adults", "Teens", "Kids"],
+        "ru-RU": ["Взрослые", "Подростки", "Дети"]
+      },
+      "languages": {
+        "en-GB": ["English"],
+        "ru-RU": ["Английский"]
+      },
+      "experience": {
+        "en-GB": "I run English courses for kids (2-8 y.o.), teens (10-18 y.o.), and adults (25+), both individually and in groups, online and in-person. I also conduct an English speaking club for levels A1-B2.",
+        "ru-RU": "Я провожу курсы английского для детей (2-8 лет), подростков (10-18 лет) и взрослых (25+), как индивидуально, так и в группах, онлайн и очно. Также я веду английский разговорный клуб для уровней A1-B2."
+      }
+    },
+    {
+      "id": 17,
+      "image": "/teachers/sira.jpeg",
+      "imageAlt": {
+        "en-GB": "Sira, a teacher at MultiTaskers Language School",
+        "ru-RU": "Сира, преподаватель языковой школы MultiTaskers"
+      },
+      "firstName": "Sira",
+      "age": {
+        "en-GB": ["Adults", "Teens", "Kids"],
+        "ru-RU": ["Взрослые", "Подростки", "Дети"]
+      },
+      "languages": {
+        "en-GB": ["Spanish"],
+        "ru-RU": ["Испанский"]
+      },
+      "experience": {
+        "en-GB": "With a linguistics degree and 8 years of teaching experience, Spanish has been a significant part of my life for the past decade. I've taught in secondary schools and language centers, and served as a guide-translator for Spanish-speaking tourists. My language skills are constantly improving.",
+        "ru-RU": "Имея степень по лингвистике и 8 лет опыта преподавания, испанский занимает одно из самых важных мест в моей жизни в течение последнего десятилетия. Я преподавала в средних школах и языковых центрах, и работала гидом-переводчиком для испаноязычных туристов. Мои языковые навыки постоянно улучшаются."
+      }
+    },
+    {
+      "id": 18,
+      "image": "/teachers/susanna.jpeg",
+      "imageAlt": {
+        "en-GB": "Susanna, a teacher at MultiTaskers Language School",
+        "ru-RU": "Сусанна, преподаватель языковой школы MultiTaskers"
+      },
+      "firstName": "Susanna",
+      "age": {
+        "en-GB": ["Adults", "Teens", "Kids"],
+        "ru-RU": ["Взрослые", "Подростки", "Дети"]
+      },
+      "languages": {
+        "en-GB": ["German", "English", "Dutch"],
+        "ru-RU": ["Немецкий", "Английский", "Голландский"]
+      },
+      "experience": {
+        "en-GB": "I offer German courses and English tutoring, both on- and offline, as well as a basic Dutch course (A1, A2 GER) in an online setting. I cater to adults, teens, and kids.",
+        "ru-RU": "Я предлагаю курсы немецкого и репетиторство по английскому, как онлайн, так и офлайн, a также базовый курс голландского (A1, A2 GER) в онлайн-формате. Мои услуги ориентированы на взрослых, подростков и детей."
+      }
+    },
+    {
+      "id": 19,
+      "image": "/teachers/veronika.jpeg",
+      "imageAlt": {
+        "en-GB": "Veronika, a teacher at MVictoriaultiTaskers Language School",
+        "ru-RU": "Вероника, преподаватель языковой школы MVictoriaultiTaskers"
+      },
+      "firstName": "Veronika",
+      "age": {
+        "en-GB": ["Adults", "Teens", "Kids"],
+        "ru-RU": ["Взрослые", "Подростки", "Дети"]
+      },
+      "languages": {
+        "en-GB": ["English", "French", "Polish", "Russian"],
+        "ru-RU": ["Английский", "Французский", "Польский", "Русский"]
+      },
+      "experience": {
+        "en-GB": "I conduct English, French, Russian, and Polish courses for all age groups, focusing on conversation practice, grammar, listening, and pronunciation. Certified by The Southampton Solent University in Business English, DALF C1 by The Sorbonne University in French, and B2 by The Warsaw University in Polish.",
+        "ru-RU": "Я провожу курсы английского, французского, русского и польского для всех возрастных групп, c акцентом на практику разговора, грамматику, аудирование и произношение. Сертифицирована в области делового английского языка университетом Саутгемптон Солент, DALF C1 по французскому в Университете Сорбонна и B2 по польскому в Варшавском университете."
+      }
+    },
+    {
+      "id": 20,
+      "image": "/teachers/victoria.jpeg",
+      "imageAlt": {
+        "en-GB": "Victoria, a teacher at MultiTaskers Language School",
+        "ru-RU": "Виктория, преподаватель языковой школы MultiTaskers"
+      },
+      "firstName": "Victoria",
+      "age": {
+        "en-GB": ["Adults", "Teens", "Kids"],
+        "ru-RU": ["Взрослые", "Подростки", "Дети"]
+      },
+      "languages": {
+        "en-GB": ["German"],
+        "ru-RU": ["Немецкий"]
+      },
+      "experience": {
+        "en-GB": "I deliver German courses for all ages, both on- and offline, from A1 to C1 levels. This includes TestDaF preparation, conversational courses, regional & cultural studies, and Business German. I offer both individual and group lessons.",
+        "ru-RU": "Я провожу курсы немецкого для всех возрастов, как онлайн, так и офлайн, c уровнями от A1 до C1. Это включает подготовку к TestDaF, разговорные курсы, курсы региональных и культурных исследований, а также деловой немецкий. Я предлагаю как индивидуальные, так и групповые занятия."
+      }
+    }
+  ]
+}
