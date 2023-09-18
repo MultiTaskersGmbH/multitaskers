@@ -15,63 +15,64 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="bg-white">
-      <div className="mx-auto max-w-7xl border-b border-gray-400 px-6 md:px-10">
-        <nav className="flex justify-between py-4" aria-label="Global">
-          <Link href="/" className="-m-1.5 p-1.5">
-            <span className="sr-only">{dictionarie.logoSrOnly["en-GB"]}</span>
-            <Image
-              className="h-10 w-auto"
-              src={logo}
-              alt={dictionarie.logoImageAlt["en-GB"]}
-              width={500}
-              height={500}
-            />
+    <header className="border-b border-slate-300 bg-white">
+      <nav
+        className="mx-auto flex max-w-7xl items-center justify-between px-4 py-6 sm:px-6 lg:px-8"
+        aria-label="Global"
+      >
+        <Link href="/" className="-m-1.5 p-1.5">
+          <span className="sr-only">{dictionarie.logoSrOnly["en-GB"]}</span>
+          <Image
+            className="h-10 w-auto"
+            src={logo}
+            alt={dictionarie.logoImageAlt["en-GB"]}
+            width={500}
+            height={500}
+          />
+        </Link>
+        <div className="flex lg:hidden">
+          <button
+            type="button"
+            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+            onClick={() => setMobileMenuOpen(true)}
+          >
+            <span className="sr-only">
+              {dictionarie.menuOpenSrOnly["en-GB"]}
+            </span>
+            <Bars3Icon className="h-6 w-6" aria-hidden="true" />
+          </button>
+        </div>
+        <div className="hidden lg:flex lg:items-center lg:gap-x-12">
+          <Link
+            key={dictionarie.navigation.homepage.name["en-GB"]}
+            href={dictionarie.navigation.homepage.href}
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
+            {dictionarie.navigation.homepage.name["en-GB"]}
           </Link>
-          <div className="flex lg:hidden">
-            <button
-              type="button"
-              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
-              onClick={() => setMobileMenuOpen(true)}
-            >
-              <span className="sr-only">
-                {dictionarie.menuOpenSrOnly["en-GB"]}
-              </span>
-              <Bars3Icon className="h-6 w-6" aria-hidden="true" />
-            </button>
-          </div>
-          <div className="hidden lg:flex lg:items-center lg:gap-x-12">
-            <Link
-              key={dictionarie.navigation.homepage.name["en-GB"]}
-              href={dictionarie.navigation.homepage.href}
-              className="text-sm font-semibold leading-6 text-gray-900"
-            >
-              {dictionarie.navigation.homepage.name["en-GB"]}
-            </Link>
-            <Link
-              key={dictionarie.navigation.faq.name["en-GB"]}
-              href={dictionarie.navigation.faq.href}
-              className="text-sm font-semibold leading-6 text-gray-900"
-            >
-              {dictionarie.navigation.faq.name["en-GB"]}
-            </Link>
-            <Link
-              key={dictionarie.navigation.teachers.name["en-GB"]}
-              href={dictionarie.navigation.teachers.href}
-              className="text-sm font-semibold leading-6 text-gray-900"
-            >
-              {dictionarie.navigation.teachers.name["en-GB"]}
-            </Link>
-            <Link
-              key={dictionarie.navigation.onlineCourses.name["en-GB"]}
-              href={dictionarie.navigation.onlineCourses.href}
-              className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-            >
-              {dictionarie.navigation.onlineCourses.name["en-GB"]}
-            </Link>
-          </div>
-        </nav>
-      </div>
+          <Link
+            key={dictionarie.navigation.faq.name["en-GB"]}
+            href={dictionarie.navigation.faq.href}
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
+            {dictionarie.navigation.faq.name["en-GB"]}
+          </Link>
+          <Link
+            key={dictionarie.navigation.teachers.name["en-GB"]}
+            href={dictionarie.navigation.teachers.href}
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
+            {dictionarie.navigation.teachers.name["en-GB"]}
+          </Link>
+          <Link
+            key={dictionarie.navigation.onlineCourses.name["en-GB"]}
+            href={dictionarie.navigation.onlineCourses.href}
+            className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+          >
+            {dictionarie.navigation.onlineCourses.name["en-GB"]}
+          </Link>
+        </div>
+      </nav>
       <Dialog
         as="div"
         className="lg:hidden"
