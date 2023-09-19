@@ -10,8 +10,8 @@
   "navigation": {
     "homepage": {
       "name": {
-        "en-GB": "Homepage",
-        "ru-RU": "Домашняя страница"
+        "en-GB": "Home",
+        "ru-RU": "Главная"
       },
       "href": "/"
     },
