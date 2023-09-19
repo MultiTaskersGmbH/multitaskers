@@ -9,7 +9,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 import dictionarie from "@/dictionaries/navigation.json";
 
-const logo = "/logo.png";
+import logo from "public/logo.png";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -26,8 +26,6 @@ export default function Header() {
             className="h-10 w-auto"
             src={logo}
             alt={dictionarie.logoImageAlt["en-GB"]}
-            width={500}
-            height={500}
           />
         </Link>
         <div className="flex lg:hidden">
@@ -88,8 +86,6 @@ export default function Header() {
                 className="h-10 w-auto"
                 src={logo}
                 alt={dictionarie.logoImageAlt["en-GB"]}
-                width={500}
-                height={500}
               />
             </Link>
             <button
