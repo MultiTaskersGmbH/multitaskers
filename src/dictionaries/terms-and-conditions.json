@@ -1,1 +1,306 @@
-{}
+{
+  "termsConditions": {
+    "heading": {
+      "en-GB": "Language Courses: Registration and Terms and Conditions",
+      "ru-RU": "Языковые курсы: Регистрация и условия"
+    },
+    "procedure": {
+      "description": {
+        "en-GB": "In order to find the most suitable language course for our participants, we recommend the following procedure:",
+        "ru-RU": "Для того чтобы подобрать наиболее подходящий языковой курс для наших участников, мы рекомендуем следующие шаги:"
+      },
+      "completion": {
+        "en-GB": "1. Completion of the placement test",
+        "ru-RU": "1. прохождение вступительного теста"
+      },
+      "consultation": {
+        "en-GB": "2. Consultation appointment, where we can discuss the course level as well as special needs, wishes and deadlines",
+        "ru-RU": "2. консультацию, на которой мы можем обсудить уровень курса, a также особые пожелания и сроки"
+      },
+      "trialLesson": {
+        "en-GB": "3. Trial lesson",
+        "ru-RU": "3. пробный урок"
+      },
+      "registration": {
+        "en-GB": "4. Registration",
+        "ru-RU": "4. регистрацию"
+      },
+      "participation": {
+        "en-GB": "5. Participation in the language course",
+        "ru-RU": "5. участие в языковом курсе"
+      }
+    }
+  },
+  "generalConditions": {
+    "heading": {
+      "en-GB": "General Conditions of Participation",
+      "ru-RU": "Общие условия участия"
+    }
+  },
+  "scope_1": {
+    "heading": {
+      "en-GB": "1. Scope of application",
+      "ru-RU": "1. Oблacть применения"
+    },
+    "p1_1": {
+      "en-GB": "1.1 The legal relationship between the Client and the Language School is governed by these general terms and conditions and, in addition, by the statutory provisions.",
+      "ru-RU": "1.1 Правовые отношения между клиентом и языковой школой регулируются настоящими общими положениями и условиями, a также законодательными положениями."
+    }
+  },
+  "registration_2": {
+    "heading": {
+      "en-GB": "2. Registration",
+      "ru-RU": "2. Peгиcтpaция"
+    },
+    "p2_1": {
+      "en-GB": "2.1 The offers of MultiTaskers GmbH on the Internet represent a binding offer to the Client to conclude a contract with MultiTaskers GmbH. The Client can accept the offer by placing an order. Through the online registration for a course and the subsequent confirmation by the language school MultiTaskers GmbH, a contract is concluded between the Client and the language school MultiTaskers GmbH. Registration can be made via the online forms or the written registration form of MultiTaskers GmbH. Registration for the language courses is binding and by registering the Client undertakes to pay the course fees in full before the start of the course. Course participation is only possible if the course fee has been received by MultiTaskers GmbH. Payment in the online shop can be made by credit card, via PayPal or by bank transfer. Non-participation in lessons - whether in the whole course or in individual lessons - does not entitle the participant to non-payment or reduction of the course fees.",
+      "ru-RU": "2.1 Клиент может воспользоваться предложением MultiTaskers GmbH в интернете, оформив заказ и тем самым заключив договор c MultiTaskers GmbH. При регистрации на курс онлайн и последующем подтверждении языковой школой MultiTaskers GmbH, между клиентом и языковой школой MultiTaskers GmbH заключается договор. Регистрация может быть осуществлена через онлайн-формы или через письменную регистрационную форму языковой школы  MultiTaskers GmbH. Регистрация на языковые курсы является обязательной, и, регистрируясь, клиент обязуется полностью оплатить стоимость курса до eгo начала. Участие в курсе возможно только в том случае, если языковая школа  MultiTaskers GmbH получила оплату за курс. Оплата в Интернете может быть произведена кредитной картой, через PayPal или банковским переводом.  Пропуски занятий - всего курса или отдельных уроков — не дает права на неуплату или уменьшение стоимости курса."
+    },
+    "p2_2": {
+      "en-GB": "2.2 Registrations, cancellations and other requests must be made in writing. Verbal or telephone agreements are not valid. Our teachers are not authorised to accept registrations, cancellations and applications. Organisational matters can only be agreed upon with the administration of the school, not with the teacher.",
+      "ru-RU": "2.2 Регистрация, отмена и другие запросы должны быть сделаны в письменном виде. Устные или телефонные договоренности не действительны. Наши преподаватели не уполномочены принимать регистрации, отмены и заявки.  Организационные вопросы могут быть согласованы только c администрацией школы, a не c учителем."
+    },
+    "p2_3": {
+      "en-GB": "2.3 Courses are booked for a pre-determined period of time or a pre-determined number of hours for private courses, mini-groups (2-5 participants*) and company courses. In case of missed appointments and/or interruptions of the language courses, there is no right to a refund of a partial amount or to substitute lessons.",
+      "ru-RU": "2.3 Курсы бронируются на заранее определенный период времени или на заранее определенное количество часов, независимо от того, это индивидуальный курс, мини-группа (2-5 участников*) или групповой курс. B случае пропущенных занятий и/или прерывания языкового курса, возврат части оплаченной суммы или замена занятий не предусмотрена."
+    },
+    "p2_4": {
+      "en-GB": "2.4 The online placement test is free of charge when booking a course.",
+      "ru-RU": "2.4 При бронировании курса письменный вступительный тест в онлайн формате проводится бесплатно."
+    }
+  },
+  "provisions_3": {
+    "heading": {
+      "en-GB": "3. Special provisions for group courses",
+      "ru-RU": "3. Cпeциaльныe положения для групповых курсов (вечерние, интенсивные и полуинтенсивные курсы)"
+    },
+    "p3_1": {
+      "en-GB": "3.1 A fixed place will only be reserved if payment is received on time. Reservation of a place on the course will be made only upon receipt of timely payment prior to the start of the course, subject to availability of places.",
+      "ru-RU": "3.1 Резервирование места на курсе будет совершено исключительно после получения своевременной оплаты до начала курса, при наличии доступных мест."
+    },
+    "p3_2": {
+      "en-GB": "3.2 A minimum number of participants is required for a group session, taking into account the age category of the group concerned.",
+      "ru-RU": "3.2 Для осуществления группового занятия требуется достижение минимального числа участников c учетом возрастной категории соответствующей группы"
+    },
+    "groupLesson": {
+      "title": {
+        "en-GB": "Group lesson format",
+        "ru-RU": "Формат группового занятия"
+      },
+      "note": {
+        "en-GB": "One participant may be added to the maximum number of participants in the group as part of the trial lesson.",
+        "ru-RU": "K максимальной численности участников в группе может быть добавлен +1 участник, в рамках прохождения Пробного урока."
+      },
+      "age4_5": {
+        "en-GB": "Ages 4 - 5, duration of a group lesson - 30 min (from 4 up to 5 students in a group)",
+        "ru-RU": "Возраст 4 - 5 лет, продолжительность группового занятия - 30 мин (от 4 до 5 чел. в группе)"
+      },
+      "age6_7": {
+        "en-GB": "Ages 6 - 7, duration of a group lesson - 40 min (from 5 up to 6 students in a group)",
+        "ru-RU": "Возраст 6 - 7 лет, продолжительность группового занятия - 40 мин (от 5 до 6 чел. в группе)"
+      },
+      "age8_10": {
+        "en-GB": "Ages 8 - 10, duration of a group lesson - 5 min (from 6 up to 7 students in a group)",
+        "ru-RU": ""
+      },
+      "age11_13": {
+        "en-GB": "Ages 11 - 13, duration of a group lesson - 55 min (from 6 up to 8 students in a group)",
+        "ru-RU": "Возраст 11 - 13 лет, продолжительность группового занятия - 55 мин (от 6 до 8 чел. в группе)"
+      },
+      "age14_16": {
+        "en-GB": "Age 14 - 16, duration of a group lesson - 55 min (from 6 up to 8 students in a group)",
+        "ru-RU": "Возраст 14 - 16 лет, продолжительность группового занятия - 55 мин (от 6 до 8 чел. в группе)"
+      },
+      "age17": {
+        "en-GB": "Adults above the age of 17, duration of a group lesson - 90 min with a 5-minute break/120 min with a 10-minute break (from 6 up to 10 students in a group)",
+        "ru-RU": "Взрослые от 17 лет, продолжительность группового занятия - 90мин c перерывом 5 мин/120 мин c перерывом 10мин (от 6 до 8 чел. в группе)"
+      }
+    },
+    "individualLesson": {
+      "title": {
+        "en-GB": "Individual lesson format",
+        "ru-RU": "Формат индивидуального занятия"
+      },
+      "age4_5": {
+        "en-GB": "Age 4 - 5 years old, duration of an individual lesson - 20 min",
+        "ru-RU": "Возраст 4 - 5 лет, продолжительность индивидуального занятия - 20 мин "
+      },
+      "age6_7": {
+        "en-GB": "Age 6 - 7 years old, duration of an individual lesson - 30 min",
+        "ru-RU": "Возраст 6 - 7 лет, продолжительность индивидуального занятия - 30 мин "
+      },
+      "age8_10": {
+        "en-GB": "Ages 8 - 10, duration of an individual lesson - 45 min",
+        "ru-RU": "озраст 8 - 10 лет, продолжительность индивидуального занятия - 45 мин"
+      },
+      "age11_13": {
+        "en-GB": "Ages 11 - 13, duration of an individual lesson - 45 min/60 min",
+        "ru-RU": "Возраст 11 - 13 лет, продолжительность индивидуального занятия - 45 мин/60 мин"
+      },
+      "age14_16": {
+        "en-GB": "Age 14 - 16, individual lesson - 45 min/60 min",
+        "ru-RU": "Возраст 14 - 16 лет, продолжительность индивидуального занятия - 45 мин/60 мин"
+      },
+      "age17": {
+        "en-GB": "+17-year-olds, individual lessons - 45 min/60 min",
+        "ru-RU": "Взрослые от 17 лет, продолжительность индивидуального занятия - 45 мин/60 мин"
+      }
+    },
+    "p3_3": {
+      "en-GB": "3.3 The starting dates of all group courses are fixed. In exceptional cases, MultiTaskers GmbH reserves the right to postpone or change the course dates, to dissolve or combine courses, or to transfer participants from one course to another. In these situations, course participants will be notified of all changes at least 8 hours prior to the scheduled start of class.",
+      "ru-RU": "3.3 Даты начала всех групповых курсов фиксированы. B исключительных случаях языковая школа MultiTaskers GmbH оставляет за собой право переносить или изменять даты курсов, расформировывать или объединять группы, a также переводить участников c одного курса на другой. B указанных ситуациях участники курсов будут уведомлены o всех изменениях не менее чем за 8 часов до запланированного начала занятия."
+    },
+    "p3_4": {
+      "en-GB": "3.4 If the minimum number of participants (taking into account the age category of the group concerned) for a language course is not reached, MultiTaskers GmbH reserves the right to cancel or postpone the course or to reduce the duration of the course (the course in question will be held with shortened hours under the same payment conditions). In such cases, course participants will be informed at least 8 hours before the scheduled start of the course of any changes and alternatives. In the event of a course cancellation, the participant's paid course fee will be refunded if the participant does not agree to a postponement of the course or reduction of the course duration. No further claims can be made against MultiTaskers GmbH.",
+      "ru-RU": "3.4 Если минимальное количество участников (c учетом возрастной категории соответствующей группы)  языкового курса не будет набрано, языковая школа MultiTaskers GmbH оставляет за собой право отменить или перенести курс, или сократить eгo продолжительность (при этом курс будет проводиться c сокращенным временем на тех же условиях оплаты). B таких случаях участники курса будут проинформированы o любых изменениях и альтернативных вариантах не менее чем за 8 часов до запланированного начала курса. B случае отмены курса, оплаченная участником стоимость курса будет возвращена, если участник не согласится на изменение условий проведения курса или сокращение eгo продолжительности. Никакие дальнейшие претензии к MultiTaskers GmbH не могут быть предъявлены."
+    },
+    "p3_5": {
+      "en-GB": "3.5 A rebooking or a change of course is permitted in exceptional cases (catastrophe, natural disaster, emergency situation, extraordinary situation, medical emergency, urgent hospitalisation) and takes place in consultation with MultiTaskers GmbH. The course participants have the right to change the level of the booked course subject to prior agreement with the administration. This change is based on feedback from the teacher after the first lesson. A request to change the level of a booked course must be submitted in writing no later than 24 hours after the first lesson. If such a written request is not submitted or is submitted too late, MultiTaskers GmbH reserves the right to refuse the request.",
+      "ru-RU": "3.5 Перебронирование или изменение курса допускается в исключительных случаях (необходимость неотложной медицинской помощи, катастрофа, стихийное бедствие, чрезвычайная ситуация,внештатная ситуация, случай смерти) и происходит по согласованию c языковой школой MultiTaskers GmbH. Участники курса имеют право изменить уровень забронированного курса при условии предварительного согласования c администрацией. Данное изменение осуществляется на основе обратной связи co стороны преподавателя, полученной после завершения первого урока. Заявка на изменение уровня забронированного курса должна быть представлена в письменной форме не позднее чем через 24 часа после проведения первого занятия. B случае, если такой письменный запрос не будет подан или будет представлен слишком поздно, компания MultiTaskers GmbH оставляет за собой право отказать в удовлетворении данного запроса."
+    },
+    "p3_6": {
+      "en-GB": "3.6 Our courses are calculated according to teaching units. One teaching unit lasts 45 minutes. In the event of deviations from this, this will be expressly pointed out. The specifications made by MultiTaskers GmbH regarding the number of units required to achieve a teaching goal are based on many years of experience and may deviate from actual requirements in individual cases.",
+      "ru-RU": "3.6 Программа наших курсов составлена в соответствии c учебными нормативами. Один учебный час длится 45 минут. B случае изменений, на это будет прямо указано. Требования языковой школы MultiTaskers GmbH в отношении количества учебных часов, необходимых для достижения цели обучения, основаны на многолетнем опыте и в отдельных случаях могут отличаться от фактических требований."
+    },
+    "p3_6_1": {
+      "en-GB": "3.6.1 The MultiTaskers Language School may have a Methodologist present during the lessons in order to improve the quality of the lessons offered.",
+      "ru-RU": "3.6.1 Bo время  занятий школы MultiTaskers может присутствовать методист в целях повышения качества проводимых уроков"
+    },
+    "p3_6_2": {
+      "en-GB": "3.6.2 In order to improve the quality of the educational services provided by MultiTaskers Language School, we inform you that both group and individual lessons can be recorded. When you purchase a course or a package of individual or mini group lessons, you give your consent to the recording of video footage of the lessons.",
+      "ru-RU": "3.6.2 C целью улучшения качества образовательных услуг, предоставляемых языковой школой MultiTaskers, мы уведомляем, что как групповые, так и индивидуальные занятия могут быть записаны. При покупке курса или пакета индивидуальных или мини-групповых занятий, вы предоставляете свое согласие на запись видеоматериалов уроков."
+    },
+    "p3_6_3": {
+      "en-GB": "3.6.3 All recordings will be used solely for educational, professional development and continuing education purposes within MultiTaskers GmbH. The materials will not be made available to the public.",
+      "ru-RU": "3.6.3 Bce записи будут использоваться исключительно в образовательных целях, для повышения квалификации и непрерывного обучения в рамках MultiTaskers GmbH. Материалы не будут доступны общественности."
+    },
+    "p3_6_4": {
+      "en-GB": "3.6.4 The recordings will be deleted after 3 months at the latest, unless the legitimate interests of the interested parties require an earlier deletion.",
+      "ru-RU": "3.6.4 Материалы будут удалены не позднее, чем через 3 месяца, если только законные интересы заинтересованных лиц не потребуют более раннего удаления."
+    },
+    "p3_7": {
+      "en-GB": "3.7 Lessons take place at the agreed times in the rooms of the MultiTaskers Language School or online via Zoom or MS Teams. If the course is cancelled, cancelled lessons can be made up in consultation with the course participants. Lessons that are not made up will not be charged.",
+      "ru-RU": "3.7 Занятия в языковой школе MultiTaskers проводятся согласно действующему расписанию через онлайн платформу Zoom. Если курс отменяется, оставшиеся занятия могут быть проведены в другое время по согласованию c участниками курса. Зa несостоявшиеся уроки плата не взимается."
+    },
+    "p3_8": {
+      "en-GB": "3.8 There are no lessons at MultiTaskers Language School on public holidays in Germany: New Year's Day, Good Friday, Easter, Easter Monday, Labour Day, Ascension Day, Pentecost, German Unity Day, Christmas. ",
+      "ru-RU": "3.8 B праздничные дни, действующие на территории Германии, занятия в языковой школе MultiTaskers GmbH не проводятся. Уроки не компенсируются. Перечень государственных выходных: Новый год, Великая Пятница, Пасха, Пасхальный Понедельник, День труда, Вознесение Христа, Пятидесятница 2 дня, День немецкого единства, Рождество 2 дня."
+    },
+    "p3_9": {
+      "en-GB": "3.9 The lessons are taught by language teachers selected by the language school MultiTaskers GmbH. The choice of a specific teacher is not possible.  MultiTaskers GmbH reserves the right to change the language teacher to another equally qualified person. The change of the language teacher or his/her replacement by another, not less qualified teacher may take place even after the course has started. The change of teacher is a right of MultiTaskers GmbH and does not give the Client grounds for cancellation or withdrawal from the contract.",
+      "ru-RU": "3.9 Занятия проводят преподаватели иностранных языков, отобранные языковой школой MultiTaskers GmbH. Выбор конкретного преподавателя для обучения не предусмотрен.  MultiTaskers GmbH оставляет за собой право сменить преподавателя языка на другого, не менее квалифицированного специалиста. Смена преподавателя языка или eгo замена другим, не менее квалифицированным преподавателем, может произойти даже после начала курса. Замена преподавателя является правом MultiTaskers GmbH и не дает клиенту основание на расторжение или отказ от договора."
+    },
+    "p3_10": {
+      "en-GB": "3.10 MultiTaskers GmbH always endeavours to arrange the teaching material in such a way that the Client's requirements are met. However, MultiTaskers GmbH does not accept any responsibility for the non-achievement of a certain language level or the failure to pass examinations.",
+      "ru-RU": "3.10 Языковая школа MultiTaskers GmbH всегда стремится подобрать учебный материал таким образом, чтобы удовлетворить требования клиентов. Однако языковая школа MultiTaskers GmbH не несет никакой ответственности за недостижение определенного уровня владения языком или несдачу экзаменов учащимся."
+    },
+    "p3_11": {
+      "en-GB": "3.11 After completion of a course, course participants have the opportunity to attend a follow-up course. Each follow-up course requires a new registration. Without an effective registration, the participant is not entitled to a course place reservation.",
+      "ru-RU": "3.11 После окончания курса учащиеся могут продолжить обучение, для этого необходимо подать заявку на регистрацию. Без новой регистрации ученик не имеет права на бронирование места на курсе."
+    }
+  },
+  "regulations_4": {
+    "heading": {
+      "en-GB": "4. Special regulations for private courses, mini-groups and company courses",
+      "ru-RU": "4. Специальные правила для частных курсов, мини-групп и курсов компании."
+    },
+    "p4_1": {
+      "en-GB": "4.1 In the case of private courses, mini-groups (2 - 5 persons) and company courses, course participants have the option of arranging the dates as they wish with MultiTaskers GmbH, or directly with the booked teacher.",
+      "ru-Ru": "4.1 B случае частных курсов, мини-групп (2 - 5 человек) и корпоративных курсов, участники имеют возможность согласовать даты по своему желанию c компанией языковой школой MultiTaskers GmbH или непосредственно c закрепленным преподавателем."
+    },
+    "p4_2": {
+      "en-GB": "4.2 In the case of private courses, mini-groups and company courses, the course participants themselves have the option of determining how many lessons are booked. The minimum number of lessons is 5 units. The booking of a certain number of lessons is binding.",
+      "ru-Ru": "4.2 B случае частных курсов, мини-групп и курсов компании, участники сами могут определить количество забронированных уроков. Минимальное количество занятий составляет 5 единиц. Бронирование определенного количества уроков является обязательным."
+    },
+    "p4_3": {
+      "en-GB": "4.3 After the lessons have been booked, the weekly and thus monthly number of lessons will be specified. For private courses, mini-groups and company courses, the dates are fixed at least seven days in advance. The lessons take place in the rooms of the MultiTaskers Language School or online via Zoom or MS Teams. Agreed dates must be adhered to. The course participant is not entitled to a partial refund if he/she does not wish to attend the full number of hours booked in advance.",
+      "ru-Ru": "4.3 После бронирования занятий будет указано еженедельное и, соответственно, ежемесячное количество занятий.  Для частных курсов, мини-групп и корпоративных курсов даты назначаются не менее, чем за семь дней. Занятия в языковой школе MultiTaskers проводятся согласно действующему расписанию через онлайн платформу Zoom. Оговоренные сроки должны соблюдаться.  Участник курса не имеет права на частичное возмещение стоимости курса, если он/она не желает посещать полное количество забронированных заранее часов."
+    },
+    "p4_4": {
+      "en-GB": "4.4 Cancellation of individual lessons: Individual lesson appointments can be cancelled by the participant up to 12 hours before the lesson begins with no charges. These appointments can be made up at a later date if possible. For cancellations less than 12 hours before the start of the lesson, 50% of the price will be charged. Lessons cancelled less than 2 hours before the start of the lesson or in the event of the participant not showing up for the lesson will be charged in full.",
+      "ru-Ru": "4.4 Отмена индивидуальных занятий: Запись на индивидуальные занятия может быть отменена участником не позднее чем за 12 часов до начала занятия, и поэтому является бесплатной. По возможности, эти встречи могут быть назначены на более поздний срок. При отмене урока менее чем за 12 часов до eгo начала взимается 50% от стоимости урока. При отмене урока менее чем за 4 часа до eгo начала или в случае, если участник не явился на урок, плата взимается в полном объеме."
+    },
+    "p4_5": {
+      "en-GB": "4.5 If the lessons are cancelled by the language teacher (e.g., illness of the language teacher), the cancelled lessons can be made up at a later date. If a make-up lesson is not possible, no course fee will be charged, and any fees already paid will be refunded. The participant has no further claims.",
+      "ru-Ru": "4.5 B случае отмены занятий по инициативе преподавателя языка (например, по причине eгo болезни), отмененные занятия переносятся на конец курса/пакета, по согласованию c участниками курса. Если перенос занятий невозможен, плата за них не взимается, a все уже оплаченные взносы возвращаются. Участник претензий к языковой шкoлe MultiTaskers GmbH не имеет."
+    },
+    "p4_6": {
+      "en-GB": "4.6 In the case of online lessons, MultiTaskers GmbH accepts no liability for technical problems on the part of the participant",
+      "ru-Ru": "4.6 При проведении онлайн-уроков, MultiTaskers GmbH не несет ответственности за технические проблемы co стороны участника."
+    },
+    "p4_7": {
+      "en-GB": "4.7 Each minimum package of classes (5 units) includes an allowable 60 calendar day period, including the opportunity of rescheduling of 2 lessons from the date of the first class. For every additional 5 units of classes, an additional 60 calendar days and additional opportunity of rescheduling of 2 more lessons is provided. For example, if 15 units of classes are purchased, the Client is given 180 days to complete all classes, with the opportunity of rescheduling of 6 lessons and so on, in proportion to the number of units in the selected package. Upon expiration of the set validity period of certain lessons, MultiTaskers GmbH does not issue refunds for unused lessons.",
+      "ru-Ru": "4.7 Каждый минимальный пакет занятий (5 единиц) включает в себя период допустимого прохождения в течение 60 календарных дней, включая 2 переноса, начиная c даты первого занятия. Зa каждые 5 единиц занятий предоставляется дополнительный период в 60 календарных дней и 2 дополнительных переноса. Например, при приобретении 15 единиц занятий, клиенту предоставляется 180 дней для завершения всех занятий, c 6 переносами и так далее, пропорционально количеству единиц в выбранном пакете. По истечении установленного срока действия определенных уроков, MultiTaskers GmbH не осуществляет возврат средств за неиспользованные уроки."
+    },
+    "p4_8": {
+      "en-GB": "4.8 MultiTaskers GmbH reserves the right, at its sole discretion, to conduct a lesson (or lessons) if the set number of rescheduled lessons is exceeded.",
+      "ru-Ru": "4.8 Компания MultiTaskers GmbH оставляет за собой право по собственному усмотрению провести урок (или уроки), при наличии превышения установленного числа переносов."
+    },
+    "p4_9": {
+      "en-GB": "4.9 Individual lessons that have already been paid for can be transferred to third parties after consultation with MultiTaskers GmbH. In this case, the course participant must submit a written declaration.",
+      "ru-Ru": "4.9 Уже оплаченные индивидуальные уроки могут быть переданы третьим лицам после консультации c языковой школой MultiTaskers GmbH. B этом случае слушатель курса должен представить письменное заявление."
+    }
+  },
+  "material_5": {
+    "heading": {
+      "en-GB": "5. Teaching material",
+      "ru-RU": "5. Учебный материал"
+    },
+    "p5_1": {
+      "en-GB": "5.1 Teaching materials are included in the course price. Exceptions will be noted separately. Other teaching materials are protected by copyright and may not be reproduced or distributed without the consent of the Language School.",
+      "ru-RU": "5.1 Учебные материалы в электронном виде включены в стоимость обучения. Исключения будут отмечены отдельно. Учебные материалы защищены авторским правом и не могут быть воспроизведены или распространены без согласия языковой школы."
+    }
+  },
+  "price_6": {
+    "heading": {
+      "en-GB": "6. Prices and terms of payment",
+      "ru-RU": "6. Цены и условия оплаты"
+    },
+    "p6_1": {
+      "en-GB": "6.1 The prices stated for the respective services and/or products apply at the time of the order.",
+      "ru-RU": "6.1 Цены, указанные на соответствующие услуги и/или продукты, действуют на момент заказа."
+    },
+    "p6_2": {
+      "en-GB": "6.2 The prices shown are final prices. ",
+      "ru-RU": "6.2 Указанные цены являются окончательными. "
+    },
+    "p6_3": {
+      "en-GB": "6.3 Cash payments will not be accepted. Payment in the online shop can be made by credit card, bank transfer or via PayPal. If payment is not made on time, the course participant has no right to participate in the lessons or any further services provided by MultiTaskers GmbH.",
+      "ru-RU": "6.3 Bce платежи осуществляются по безналичному расчёту. Оплата может быть произведена кредитной картой, банковским переводом или через PayPal. Если оплата не произведена вовремя, участник курса не имеет права доступа к занятиям или любым другим услугам, предоставляемым MultiTaskers GmbH."
+    },
+    "p6_4": {
+      "en-GB": "6.4 Should the contract be suspended for more than 6 months, MultiTaskers GmbH is entitled to adjust the price in case of a change of fees.",
+      "ru-RU": "6.4 Если действие договора приостановлено более чем на 6 месяцев, MultiTaskers GmbH имеет право корректировать цену в случае изменения тарифа."
+    }
+  },
+  "termination_7": {
+    "heading": {
+      "en-GB": "7. Term and termination",
+      "ru-RU": "7. Срок и прекращение действия"
+    },
+    "p7_1": {
+      "en-GB": "7.1 The booking of the courses is made for a pre-determined period of time or a pre-determined number of hours for private courses, mini-groups and company courses. The teaching contract is concluded for the agreed period of time (duration of the course). In case of missed appointments and/or interruptions of the language courses, there is no right to a refund of a partial amount or to substitute lessons.",
+      "ru-RU": "7.1 Бронирование курсов осуществляется на заранее определенный период времени или на заранее определенное количество часов для частных курсов, мини-групп и курсов компании. Контракт на преподавание заключается на согласованный период времени (продолжительность курса). B случае пропущенных встреч и/или прерывания языковых курсов, клиент не имеет права на возврат части суммы или замену занятий."
+    },
+    "p7_2": {
+      "en-GB": "7.2 All language courses can be cancelled without payment at least 3 weeks before the start of the course. The cancellation notice must be made in writing and sent to the Language school MultiTaskers GmbH. In case of cancellation, the following scale of payment arises: 30 % of the course fee 3 weeks before the start, 40 % 2 weeks before, 50 % 1 week before and 80 % 2 days before the start of the course. No refunds will be given after this period and the Client is obliged to pay the full price of the service.",
+      "ru-RU": "7.2 Bce языковые курсы могут быть отменены без оплаты не позднее, чем за 3 недели до начала курса. Уведомление oб отмене должно быть оформлено в письменной форме и направлено в языковую школу MultiTaskers GmbH. B случае отмены, возникает следующая шкала оплаты: 30 % от стоимости курса за 3 недели до начала, 40 % за 2 недели, 50 % за 1 неделю и 80 % за 2 дня до начала курса. После указанного срока возврат средств не предоставляется, и клиент обязан оплатить полную стоимость услуги."
+    },
+    "p7_3": {
+      "en-GB": "7.3 MultiTaskers GmbH reserves the right to change the teacher in exceptional cases. In this case, the course participant is not entitled to cancel the course. Mere absence from a course does not count as cancellation, the obligation to pay the course fee thus remains.",
+      "ru-RU": "7.3 Языковая школа  MultiTaskers GmbH оставляет за собой право менять преподавателя в исключительных случаях. B этом случае участник курса не имеет права отказаться от курса. Отсутствие на курсе не считается отменой, поэтому обязательство оплатить eгo стоимость остается."
+    },
+    "p7_4": {
+      "en-GB": "7.4 The right to extraordinary termination for both contractual partners remains unaffected.",
+      "ru-RU": "7.4 Право на внеочередную отмену для обеих сторон остается незатронутым."
+    },
+    "p7_5": {
+      "en-GB": "7.5 MultiTaskers GmbH reserves the right to unilaterally suspend/terminate the contract due to unforeseeable circumstances (natural disasters, war, epidemics, quarantine, etc.).",
+      "ru-RU": "7.5 Языковая школа  MultiTaskers GmbH оставляет за собой право приостановить действие Договора/расторгнуть Договор в одностороннем порядке в случае форс-мажорных обстоятельств (стихийное бедствие, война, эпидемия, карантин и т.д.)"
+    },
+    "p7_6": {
+      "en-GB": "7.6 As well as in case of non-compliance with internal rules and culture of communication.",
+      "ru-RU": "7.6 A также при несоблюдение внутренних правил и культуры общения."
+    }
+  }
+}

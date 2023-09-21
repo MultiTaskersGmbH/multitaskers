@@ -1,36 +1,125 @@
+import dictionarie from "@/dictionaries/terms-and-conditions.json";
+
 export default function Page() {
   return (
-    <>
-      <h1>Language Courses: Registration and Terms and Conditions</h1>
-      <div>
-        <p>
-          In order to find the most suitable language course for our
-          participants, we recommend the following procedure:
-        </p>
-        <ol className="list-inside list-decimal">
-          <li>Completion of the placement test</li>
-          <li>
-            Consultation appointment, where we can discuss the course level as
-            well as special needs, wishes and deadlines
-          </li>
-          <li>Trial lesson</li>
-          <li>Registration</li>
-          <li>Participation in the language course</li>
-        </ol>
-        <section>
-          <h2>General Conditions of Participation</h2>
-          <ol className="list-inside list-decimal">
-            <li>Scope of application</li>
-            <ol className="ml-4 mt-4 list-inside list-decimal">
-              <li>
-                The legal relationship between the Client and the Language
-                School is governed by these general terms and conditions and, in
-                addition, by the statutory provisions.
-              </li>
-            </ol>
+    <div className="mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8">
+      <h1>{dictionarie.termsConditions.heading["en-GB"]}</h1>
+      <p>{dictionarie.termsConditions.procedure.description["en-GB"]}</p>
+      <ol>
+        <li>{dictionarie.termsConditions.procedure.completion["en-GB"]}</li>
+        <li>{dictionarie.termsConditions.procedure.consultation["en-GB"]}</li>
+        <li>{dictionarie.termsConditions.procedure.trialLesson["en-GB"]}</li>
+        <li>{dictionarie.termsConditions.procedure.registration["en-GB"]}</li>
+        <li>{dictionarie.termsConditions.procedure.participation["en-GB"]}</li>
+      </ol>
+
+      <h2>{dictionarie.generalConditions.heading["en-GB"]}</h2>
+      <ol>
+        <li>
+          <h3>{dictionarie.scope_1.heading["en-GB"]}</h3>
+          <ol>
+            <li>{dictionarie.scope_1.p1_1["en-GB"]}</li>
           </ol>
-        </section>
-      </div>
-    </>
+        </li>
+
+        <li>
+          <h3>{dictionarie.registration_2.heading["en-GB"]}</h3>
+          <ol>
+            <li>{dictionarie.registration_2.p2_1["en-GB"]}</li>
+            <li>{dictionarie.registration_2.p2_2["en-GB"]}</li>
+            <li>{dictionarie.registration_2.p2_3["en-GB"]}</li>
+            <li>{dictionarie.registration_2.p2_4["en-GB"]}</li>
+          </ol>
+        </li>
+
+        <li>
+          <h3>{dictionarie.provisions_3.heading["en-GB"]}</h3>
+          <ol>
+            <li>{dictionarie.provisions_3.p3_1["en-GB"]}</li>
+            <li>
+              {dictionarie.provisions_3.p3_2["en-GB"]}
+              <ul>
+                <li>{dictionarie.provisions_3.groupLesson.title["en-GB"]}</li>
+                <li>{dictionarie.provisions_3.groupLesson.note["en-GB"]}</li>
+                <li>{dictionarie.provisions_3.groupLesson.age4_5["en-GB"]}</li>
+                <li>{dictionarie.provisions_3.groupLesson.age6_7["en-GB"]}</li>
+                <li>{dictionarie.provisions_3.groupLesson.age8_10["en-GB"]}</li>
+                <li>
+                  {dictionarie.provisions_3.groupLesson.age11_13["en-GB"]}
+                </li>
+                <li>
+                  {dictionarie.provisions_3.groupLesson.age14_16["en-GB"]}
+                </li>
+                <li>{dictionarie.provisions_3.groupLesson.age17["en-GB"]}</li>
+              </ul>
+              <ul>
+                <li>
+                  {dictionarie.provisions_3.individualLesson.title["en-GB"]}
+                </li>
+                <li>
+                  {dictionarie.provisions_3.individualLesson.age4_5["en-GB"]}
+                </li>
+                <li>
+                  {dictionarie.provisions_3.individualLesson.age6_7["en-GB"]}
+                </li>
+                <li>
+                  {dictionarie.provisions_3.individualLesson.age8_10["en-GB"]}
+                </li>
+                <li>
+                  {dictionarie.provisions_3.individualLesson.age11_13["en-GB"]}
+                </li>
+                <li>
+                  {dictionarie.provisions_3.individualLesson.age14_16["en-GB"]}
+                </li>
+                <li>
+                  {dictionarie.provisions_3.individualLesson.age17["en-GB"]}
+                </li>
+              </ul>
+            </li>
+            <li>{dictionarie.provisions_3.p3_3["en-GB"]}</li>
+            <li>{dictionarie.provisions_3.p3_4["en-GB"]}</li>
+            <li>{dictionarie.provisions_3.p3_5["en-GB"]}</li>
+            <li>{dictionarie.provisions_3.p3_6["en-GB"]}</li>
+            <li>{dictionarie.provisions_3.p3_7["en-GB"]}</li>
+            <li>{dictionarie.provisions_3.p3_8["en-GB"]}</li>
+            <li>{dictionarie.provisions_3.p3_9["en-GB"]}</li>
+            <li>{dictionarie.provisions_3.p3_10["en-GB"]}</li>
+            <li>{dictionarie.provisions_3.p3_11["en-GB"]}</li>
+          </ol>
+        </li>
+
+        <li>
+          <h3>{dictionarie.regulations_4.heading["en-GB"]}</h3>
+          <ol>
+            <li>{dictionarie.regulations_4.p4_1["en-GB"]}</li>
+            <li>{dictionarie.regulations_4.p4_2["en-GB"]}</li>
+            <li>{dictionarie.regulations_4.p4_3["en-GB"]}</li>
+            <li>{dictionarie.regulations_4.p4_4["en-GB"]}</li>
+            <li>{dictionarie.regulations_4.p4_5["en-GB"]}</li>
+            <li>{dictionarie.regulations_4.p4_6["en-GB"]}</li>
+            <li>{dictionarie.regulations_4.p4_7["en-GB"]}</li>
+            <li>{dictionarie.regulations_4.p4_8["en-GB"]}</li>
+            <li>{dictionarie.regulations_4.p4_9["en-GB"]}</li>
+          </ol>
+        </li>
+
+        <li>
+          <h3>{dictionarie.material_5.heading["en-GB"]}</h3>
+          <ol>
+            <li>{dictionarie.material_5.p5_1["en-GB"]}</li>
+          </ol>
+        </li>
+
+        <li>
+          <h3>{dictionarie.price_6.heading["en-GB"]}</h3>
+          <ol>
+            <li>{dictionarie.price_6.p6_1["en-GB"]}</li>
+            <li>{dictionarie.price_6.p6_2["en-GB"]}</li>
+            <li>{dictionarie.price_6.p6_3["en-GB"]}</li>
+            <li>{dictionarie.price_6.p6_4["en-GB"]}</li>
+          </ol>
+        </li>
+      </ol>
+    </div>
   );
 }
