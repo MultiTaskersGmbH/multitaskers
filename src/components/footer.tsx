@@ -1,12 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import dictionarie from "@/dictionaries/navigation.json";
+import { getDictionary } from "@/lib/getDictionary";
+import { type Locale } from "i18n.config";
 
 const social = [
   {
     name: "Facebook",
-    href: "https://www.facebook.com/MultiTaskersSchool",
+    href: "https://www.facebook.com/multitaskersschool",
     src: "/social-media/facebook.png",
   },
   {
@@ -21,7 +22,7 @@ const social = [
   },
   {
     name: "Telegram",
-    href: "https://t.me/MultiTaskersManager",
+    href: "https://t.me/multitaskersmanager",
     src: "/social-media/telegram.png",
   },
   {
@@ -31,88 +32,35 @@ const social = [
   },
 ];
 
-export default function Footer() {
+export default async function Footer({
+  params: { lang },
+}: {
+  params: { lang: Locale };
+}) {
   const currentYear = new Date().getFullYear();
+  const { navigation } = await getDictionary(lang);
 
   return (
     <footer>
-      <div className="mx-auto my-10 max-w-7xl px-4 sm:px-6 lg:px-8">
-        <nav
-          className="flex flex-wrap justify-center gap-8"
-          aria-label="Footer"
-        >
-          <Link
-            key={dictionarie.navigation.homepage.name["en-GB"]}
-            href={dictionarie.navigation.homepage.href}
-            className="text-sm leading-6 text-gray-600 hover:text-gray-900"
-          >
-            {dictionarie.navigation.homepage.name["en-GB"]}
-          </Link>
-          <Link
-            key={dictionarie.navigation.faq.name["en-GB"]}
-            href={dictionarie.navigation.faq.href}
-            className="text-sm leading-6 text-gray-600 hover:text-gray-900"
-          >
-            {dictionarie.navigation.faq.name["en-GB"]}
-          </Link>
-          <Link
-            key={dictionarie.navigation.teachers.name["en-GB"]}
-            href={dictionarie.navigation.teachers.href}
-            className="text-sm leading-6 text-gray-600 hover:text-gray-900"
-          >
-            {dictionarie.navigation.teachers.name["en-GB"]}
-          </Link>
-          <Link
-            key={dictionarie.navigation.onlineCourses.name["en-GB"]}
-            href={dictionarie.navigation.onlineCourses.href}
-            className="text-sm leading-6 text-gray-600 hover:text-gray-900"
-          >
-            {dictionarie.navigation.onlineCourses.name["en-GB"]}
-          </Link>
-          <Link
-            key={dictionarie.navigation.imprint.name["en-GB"]}
-            href={dictionarie.navigation.imprint.href}
-            className="text-sm leading-6 text-gray-600 hover:text-gray-900"
-          >
-            {dictionarie.navigation.imprint.name["en-GB"]}
-          </Link>
-          <Link
-            key={dictionarie.navigation.privacyPolicy.name["en-GB"]}
-            href={dictionarie.navigation.privacyPolicy.href}
-            className="text-sm leading-6 text-gray-600 hover:text-gray-900"
-          >
-            {dictionarie.navigation.privacyPolicy.name["en-GB"]}
-          </Link>
-          <Link
-            key={dictionarie.navigation.termsAndConditions.name["en-GB"]}
-            href={dictionarie.navigation.termsAndConditions.href}
-            className="text-sm leading-6 text-gray-600 hover:text-gray-900"
-          >
-            {dictionarie.navigation.termsAndConditions.name["en-GB"]}
-          </Link>
+      <div>
+        <nav aria-label="Footer">
+          <Link href="/">{navigation.menu.home}</Link>
+          <Link href="/faq">{navigation.menu.faq}</Link>
+          <Link href="/team">{navigation.menu.team}</Link>
+          <Link href="/courses">{navigation.menu.courses}</Link>
+          <Link href="/legal-notice">{navigation.menu.legal}</Link>
+          <Link href="/privacy-policy">{navigation.menu.privacy}</Link>
+          <Link href="/terms-and-conditions">{navigation.menu.terms}</Link>
         </nav>
-        <div className="mt-10 flex justify-center space-x-10">
+        <div>
           {social.map((item) => (
-            <Link
-              key={item.name}
-              href={item.href}
-              target="_blank"
-              className="transform hover:scale-110"
-            >
+            <Link href={item.href} target="_blank" key={item.name}>
               <span className="sr-only">{item.name}</span>
-              <Image
-                className="h-6 w-auto"
-                alt=""
-                src={item.src}
-                width={50}
-                height={50}
-              />
+              <Image alt="" src={item.src} width={50} height={50} />
             </Link>
           ))}
         </div>
-        <p className="mt-10 text-center text-xs leading-5 text-gray-500">
-          &copy; {currentYear} MultiTaskers GmbH. All rights reserved.
-        </p>
+        <p>&copy; {currentYear} MultiTaskers GmbH. All rights reserved.</p>
       </div>
     </footer>
   );

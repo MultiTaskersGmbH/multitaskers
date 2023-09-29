@@ -1,7 +1,13 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy",
+};
+
 export default function Page() {
   return (
     <>
-      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-24 lg:px-8">
+      <section>
         <h1>Privacy Policy</h1>
         <h2>1. An overview of data protection</h2>
         <h3>General information</h3>

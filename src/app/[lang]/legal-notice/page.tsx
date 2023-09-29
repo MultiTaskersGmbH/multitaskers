@@ -1,8 +1,14 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Legal Notice",
+};
+
 export default function Page() {
   return (
     <>
-      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 md:py-24 lg:px-8">
-        <h1>Imprint</h1>
+      <section>
+        <h1>Legal Notice</h1>
         <h2>Information pursuant to Sect. 5 German Telemedia Act (TMG)</h2>
         <p>
           MultiTaskers GmbH
