@@ -1,7 +1,7 @@
 import { getDictionary } from "@/lib/getDictionary";
 import type { Locale } from "i18n.config";
 
-import FaqDisclosure from "@/components/FaqDisclosure";
+import FaqDisclosure from "@/components/faq-disclosure";
 
 import type { Metadata } from "next";
 

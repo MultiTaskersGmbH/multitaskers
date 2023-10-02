@@ -1,15 +1,32 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 
-import { Dialog } from "@headlessui/react";
+import type { Locale } from "i18n.config";
 
-import { useState } from "react";
+import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
-import logo from "public/logo.png";
-import LocaleSwitcher from "@/components/LocaleSwitcher";
+import { useState } from "react";
 
-export default function Header({ dictionary, lang }) {
+import LocaleSwitcher from "@/components/locale-switcher";
+
+type DictionaryType = Record<string, string>;
+
+export default function Header({
+  lang,
+  dictionary,
+}: {
+  lang: Locale;
+  dictionary: {
+    logoSrOnly: string;
+    logoImageAlt: string;
+    menuOpenSrOnly: string;
+    menuCloseSrOnly: string;
+    menu: DictionaryType;
+  };
+}) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
     <header className="border-b border-slate-300 bg-white">
@@ -21,8 +38,11 @@ export default function Header({ dictionary, lang }) {
           <span className=" sr-only">{dictionary.logoSrOnly}</span>
           <Image
             className="h-10 w-auto"
-            src={logo}
+            src="/logo.png"
             alt={dictionary.logoImageAlt}
+            width={2221}
+            height={520}
+            priority
           />
         </Link>
         <div className="flex lg:hidden">
@@ -76,8 +96,10 @@ export default function Header({ dictionary, lang }) {
               <span className="sr-only">{dictionary.logoSrOnly}</span>
               <Image
                 className="h-10 w-auto"
-                src={logo}
+                src="/logo.png"
                 alt={dictionary.logoImageAlt}
+                width={2221}
+                height={520}
               />
             </Link>
             <button

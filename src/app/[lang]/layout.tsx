@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+import { getDictionary } from "@/lib/getDictionary";
 import { type Locale, i18n } from "i18n.config";
 
 import { Inter } from "next/font/google";
+import Header from "@/components/header";
+import Footer from "@/components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -19,17 +22,21 @@ export function generateStaticParams() {
   return i18n.locales.map((locale) => ({ lang: locale }));
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
   params,
 }: {
   children: React.ReactNode;
   params: { lang: Locale };
 }) {
+  const dictionary = await getDictionary(params.lang);
+
   return (
     <html lang={params.lang}>
       <body className={`${inter.className} bg-slate-50`}>
+        <Header lang={params.lang} dictionary={dictionary.navigation} />
         <main>{children}</main>
+        <Footer lang={params.lang} dictionary={dictionary.navigation} />
       </body>
     </html>
   );

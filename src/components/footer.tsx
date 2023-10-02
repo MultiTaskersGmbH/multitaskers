@@ -1,8 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import { getDictionary } from "@/lib/getDictionary";
-import { type Locale } from "i18n.config";
+import type { Locale } from "i18n.config";
 
 const social = [
   {
@@ -32,25 +31,38 @@ const social = [
   },
 ];
 
-export default async function Footer({
-  params: { lang },
+type DictionaryType = Record<string, string>;
+
+export default function Footer({
+  lang,
+  dictionary,
 }: {
-  params: { lang: Locale };
+  lang: Locale;
+  dictionary: {
+    logoSrOnly: string;
+    logoImageAlt: string;
+    menuOpenSrOnly: string;
+    menuCloseSrOnly: string;
+    menu: DictionaryType;
+  };
 }) {
   const currentYear = new Date().getFullYear();
-  const { navigation } = await getDictionary(lang);
 
   return (
     <footer>
       <div>
         <nav aria-label="Footer">
-          <Link href="/">{navigation.menu.home}</Link>
-          <Link href="/faq">{navigation.menu.faq}</Link>
-          <Link href="/team">{navigation.menu.team}</Link>
-          <Link href="/courses">{navigation.menu.courses}</Link>
-          <Link href="/legal-notice">{navigation.menu.legal}</Link>
-          <Link href="/privacy-policy">{navigation.menu.privacy}</Link>
-          <Link href="/terms-and-conditions">{navigation.menu.terms}</Link>
+          <Link href={`/${lang}`}>{dictionary.menu.home}</Link>
+          <Link href={`/${lang}/faq`}>{dictionary.menu.faq}</Link>
+          <Link href={`/${lang}/team`}>{dictionary.menu.team}</Link>
+          <Link href={`/${lang}/courses`}>{dictionary.menu.courses}</Link>
+          <Link href={`/${lang}/legal-notice`}>{dictionary.menu.legal}</Link>
+          <Link href={`/${lang}/privacy-policy`}>
+            {dictionary.menu.privacy}
+          </Link>
+          <Link href={`/${lang}/terms-and-conditions`}>
+            {dictionary.menu.terms}
+          </Link>
         </nav>
         <div>
           {social.map((item) => (
