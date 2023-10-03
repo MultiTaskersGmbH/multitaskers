@@ -69,13 +69,13 @@ export default function Header({
             {dictionary.menu.faq}
           </Link>
           <Link
-            href="{`/${lang}/team`}"
+            href={`/${lang}/team`}
             className="text-sm font-semibold leading-6 text-gray-900"
           >
             {dictionary.menu.team}
           </Link>
           <Link
-            href="{`/${lang}/courses`}"
+            href={`/${lang}/courses`}
             className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
             {dictionary.menu.courses}
@@ -121,13 +121,13 @@ export default function Header({
                   {dictionary.menu.home}
                 </Link>
                 <Link
-                  href="{`/${lang}/faq`}"
+                  href={`/${lang}/faq`}
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   {dictionary.menu.faq}
                 </Link>
                 <Link
-                  href="{`/${lang}/team`}"
+                  href={`/${lang}/team`}
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
                   {dictionary.menu.team}
@@ -135,7 +135,7 @@ export default function Header({
               </div>
               <div>
                 <Link
-                  href="{`/${lang}/courses`}"
+                  href={`/${lang}/courses`}
                   className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   {dictionary.menu.courses}

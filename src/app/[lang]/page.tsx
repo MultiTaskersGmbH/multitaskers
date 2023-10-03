@@ -19,7 +19,7 @@ export default async function Page({
           <div>
             <h1>{home.hero.heading}</h1>
             <p>{home.hero.description}</p>
-            <Link href="{`/${lang}/courses`}">{home.hero.linkButton}</Link>
+            <Link href={`/${lang}/courses`}>{home.hero.linkButton}</Link>
           </div>
           <div>
             <Image
@@ -33,7 +33,7 @@ export default async function Page({
             <h2>{home.courses.heading}</h2>
             <p>{home.courses.title}</p>
             <p>{home.courses.description}</p>
-            <Link href="{`/${lang}/courses`}">{home.courses.linkButton}</Link>
+            <Link href={`/${lang}/courses`}>{home.courses.linkButton}</Link>
           </div>
         </div>
       </section>
@@ -72,7 +72,7 @@ export default async function Page({
           <p>{home.team.title}</p>
           <p>{home.team.description}</p>
           <div>
-            <Link href="{`/${lang}/team`}">{home.team.linkButton}</Link>
+            <Link href={`/${lang}/team`}>{home.team.linkButton}</Link>
           </div>
         </div>
         <Image

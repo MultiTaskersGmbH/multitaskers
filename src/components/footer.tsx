@@ -66,7 +66,12 @@ export default function Footer({
         </nav>
         <div>
           {social.map((item) => (
-            <Link href={item.href} target="_blank" key={item.name}>
+            <Link
+              href={item.href}
+              target="_blank"
+              key={item.name}
+              rel="nofollow noopener noreferrer"
+            >
               <span className="sr-only">{item.name}</span>
               <Image alt="" src={item.src} width={50} height={50} />
             </Link>
