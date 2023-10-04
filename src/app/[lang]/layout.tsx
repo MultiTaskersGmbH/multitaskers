@@ -4,9 +4,10 @@ import "./globals.css";
 import { getDictionary } from "@/lib/getDictionary";
 import { type Locale, i18n } from "i18n.config";
 
-import { Inter } from "next/font/google";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+
+import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {

@@ -39,10 +39,6 @@ export default function Footer({
 }: {
   lang: Locale;
   dictionary: {
-    logoSrOnly: string;
-    logoImageAlt: string;
-    menuOpenSrOnly: string;
-    menuCloseSrOnly: string;
     menu: DictionaryType;
   };
 }) {
