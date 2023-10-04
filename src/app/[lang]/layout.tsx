@@ -25,19 +25,19 @@ export function generateStaticParams() {
 
 export default async function RootLayout({
   children,
-  params,
+  params: { lang },
 }: {
   children: React.ReactNode;
   params: { lang: Locale };
 }) {
-  const dictionary = await getDictionary(params.lang);
+  const dictionary = await getDictionary(lang);
 
   return (
-    <html lang={params.lang}>
+    <html lang={lang}>
       <body className={`${inter.className} bg-slate-50`}>
-        <Header lang={params.lang} dictionary={dictionary.navigation} />
+        <Header lang={lang} dictionary={dictionary.navigation} />
         <main>{children}</main>
-        <Footer lang={params.lang} dictionary={dictionary.navigation} />
+        <Footer lang={lang} dictionary={dictionary.navigation} />
       </body>
     </html>
   );
