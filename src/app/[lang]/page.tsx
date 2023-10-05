@@ -1,7 +1,7 @@
 import Image from "next/image";
-import Link from "next/link";
 
 import { getDictionary } from "@/lib/getDictionary";
+import Button from "@/components/ui/button";
 
 import type { Locale } from "i18n.config";
 
@@ -14,33 +14,36 @@ export default async function Page({
 
   return (
     <>
-      {/* hero-section */}
-      <section>
-        <div>
-          <div>
-            <h1>{home.hero.heading}</h1>
-            <p>{home.hero.description}</p>
-            <Link href={`/${lang}/courses`}>{home.hero.linkButton}</Link>
-          </div>
-          <div>
+      <div className="mx-auto max-w-7xl px-4 pt-6 sm:px-6 lg:px-8">
+        <div className="md:grid md:grid-cols-2 md:gap-6">
+          {/* hero-section */}
+          <section className="py-24">
+            <h1 className="mb-4 text-5xl">{home.hero.heading}</h1>
+            <p className="mb-8">{home.hero.description}</p>
+            <Button href={`/${lang}/courses`}>{home.hero.linkButton}</Button>
+          </section>
+          <div className="md:sticky md:top-4">
             <Image
+              className="w-full"
               src="/images/placeholder.jpeg"
               alt={home.hero.imageAlt}
               width={618}
               height={500}
             />
           </div>
-          <div>
+
+          {/* course-section */}
+          <section className="pt-24">
             <h2>{home.courses.heading}</h2>
             <p>{home.courses.title}</p>
             <p>{home.courses.description}</p>
-            <Link href={`/${lang}/courses`}>{home.courses.linkButton}</Link>
-          </div>
+            <Button href={`/${lang}/courses`}>{home.courses.linkButton}</Button>
+          </section>
         </div>
-      </section>
+      </div>
 
       {/* benefits-section */}
-      <section>
+      <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <h3>{home.benefits.heading}</h3>
         <div>
           {home.benefits.list.map((benefit) => (
@@ -72,9 +75,7 @@ export default async function Page({
           <h2>{home.team.heading}</h2>
           <p>{home.team.title}</p>
           <p>{home.team.description}</p>
-          <div>
-            <Link href={`/${lang}/team`}>{home.team.linkButton}</Link>
-          </div>
+          <Button href={`/${lang}/team`}>{home.team.linkButton}</Button>
         </div>
         <Image
           src="/images/team.jpeg"
