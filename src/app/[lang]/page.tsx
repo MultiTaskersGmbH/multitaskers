@@ -2,10 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { getDictionary } from "@/lib/getDictionary";
-import type { Locale } from "i18n.config";
+import teamImage from "@/images/team.jpeg";
+import placeholderImage from "@/images/placeholder.jpeg";
 
-import placeholderImage from "public/placeholder.jpeg";
-import teamImage from "public/team.jpeg";
+import type { Locale } from "i18n.config";
 
 export default async function Page({
   params: { lang },
