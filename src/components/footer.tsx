@@ -7,27 +7,27 @@ const social = [
   {
     name: "Facebook",
     href: "https://www.facebook.com/multitaskersschool",
-    src: "@/images/social-media/facebook.png",
+    src: "/images/social-media/facebook.png",
   },
   {
     name: "Instagram",
     href: "https://www.instagram.com/multi_taskers_school",
-    src: "@/images/social-media/instagram.png",
+    src: "/images/social-media/instagram.png",
   },
   {
     name: "WhatsApp",
     href: "https://wa.me/4915209582603",
-    src: "@/images/social-media/whatsapp.png",
+    src: "/images/social-media/whatsapp.png",
   },
   {
     name: "Telegram",
     href: "https://t.me/multitaskersmanager",
-    src: "@/images/social-media/telegram.png",
+    src: "/images/social-media/telegram.png",
   },
   {
     name: "YouTube",
     href: "https://www.youtube.com/@multitaskerslanguages",
-    src: "@/images/social-media/youtube.png",
+    src: "/images/social-media/youtube.png",
   },
 ];
 

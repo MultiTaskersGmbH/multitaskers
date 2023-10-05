@@ -11,7 +11,6 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useState } from "react";
 
 import LocaleSwitcher from "@/components/locale-switcher";
-import logoImage from "@/images/logo.png";
 
 type DictionaryType = Record<string, string>;
 
@@ -39,8 +38,10 @@ export default function Header({
           <span className=" sr-only">{dictionary.logoSrOnly}</span>
           <Image
             className="h-10 w-auto"
-            src={logoImage}
+            src="/images/logo.png"
             alt={dictionary.logoImageAlt}
+            width={2221}
+            height={520}
             priority
           />
         </Link>
@@ -95,8 +96,10 @@ export default function Header({
               <span className="sr-only">{dictionary.logoSrOnly}</span>
               <Image
                 className="h-10 w-auto"
-                src={logoImage}
+                src="/images/logo.png"
                 alt={dictionary.logoImageAlt}
+                width={2221}
+                height={520}
               />
             </Link>
             <button
