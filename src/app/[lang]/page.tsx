@@ -4,6 +4,9 @@ import Link from "next/link";
 import { getDictionary } from "@/lib/getDictionary";
 import type { Locale } from "i18n.config";
 
+import placeholderImage from "public/placeholder.jpeg";
+import teamImage from "public/team.jpeg";
+
 export default async function Page({
   params: { lang },
 }: {
@@ -22,12 +25,7 @@ export default async function Page({
             <Link href={`/${lang}/courses`}>{home.hero.linkButton}</Link>
           </div>
           <div>
-            <Image
-              src="/placeholder.jpeg"
-              alt={home.hero.imageAlt}
-              width={500}
-              height={500}
-            />
+            <Image src={placeholderImage} alt={home.hero.imageAlt} />
           </div>
           <div>
             <h2>{home.courses.heading}</h2>
@@ -75,12 +73,7 @@ export default async function Page({
             <Link href={`/${lang}/team`}>{home.team.linkButton}</Link>
           </div>
         </div>
-        <Image
-          src="/team.jpeg"
-          alt={home.team.imageAlt}
-          width={500}
-          height={500}
-        />
+        <Image src={teamImage} alt={home.team.imageAlt} />
       </section>
     </>
   );
