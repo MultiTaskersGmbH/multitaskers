@@ -18,7 +18,7 @@ export default function FaqDisclosure({
       {({ open }) => (
         <>
           <dt>
-            <Disclosure.Button className="mb-2 flex w-full items-start justify-between text-left text-gray-900">
+            <Disclosure.Button className="flex w-full items-start justify-between text-left text-gray-900">
               <h3 className="text-base font-semibold leading-7">{question}</h3>
               <span className="ml-6 flex h-7 items-center">
                 {open ? (
@@ -29,7 +29,9 @@ export default function FaqDisclosure({
               </span>
             </Disclosure.Button>
           </dt>
-          <Disclosure.Panel as="dd">{children}</Disclosure.Panel>
+          <Disclosure.Panel as="dd" className="pt-4">
+            {children}
+          </Disclosure.Panel>
         </>
       )}
     </Disclosure>

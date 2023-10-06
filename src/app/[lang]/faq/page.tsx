@@ -18,7 +18,7 @@ export default async function Page({
 
   return (
     <>
-      <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 pb-12 pt-24 sm:px-6 lg:px-8">
         <h1 className="mb-4 text-5xl">{faq.heading}</h1>
         <p>{faq.description}</p>
       </div>
@@ -26,251 +26,245 @@ export default async function Page({
       {/* FAQ Topic 1 */}
       <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <h2 className="mb-6 text-xl">{faq.faqTopic1.heading}</h2>
-        <dl>
-          <div className="grid gap-6">
-            {/* Question 1.1 */}
-            <FaqDisclosure question={faq.faqTopic1.Q1.question}>
-              <ol>
-                <li>{faq.faqTopic1.Q1.answer1}</li>
-                <li>{faq.faqTopic1.Q1.answer2}</li>
-              </ol>
-            </FaqDisclosure>
+        <dl className="grid gap-6">
+          {/* Question 1.1 */}
+          <FaqDisclosure question={faq.faqTopic1.Q1.question}>
+            <ol>
+              <li>{faq.faqTopic1.Q1.answer1}</li>
+              <li>{faq.faqTopic1.Q1.answer2}</li>
+            </ol>
+          </FaqDisclosure>
 
-            {/* Question 1.2 */}
-            <FaqDisclosure question={faq.faqTopic1.Q2.question}>
-              <ol>
-                <li>{faq.faqTopic1.Q2.answer1}</li>
-                <li>{faq.faqTopic1.Q2.answer2}</li>
-                <li>{faq.faqTopic1.Q2.answer3}</li>
-                <li>{faq.faqTopic1.Q2.answer4}</li>
-              </ol>
-            </FaqDisclosure>
+          {/* Question 1.2 */}
+          <FaqDisclosure question={faq.faqTopic1.Q2.question}>
+            <ol>
+              <li>{faq.faqTopic1.Q2.answer1}</li>
+              <li>{faq.faqTopic1.Q2.answer2}</li>
+              <li>{faq.faqTopic1.Q2.answer3}</li>
+              <li>{faq.faqTopic1.Q2.answer4}</li>
+            </ol>
+          </FaqDisclosure>
 
-            {/* Question 1.3 */}
-            <FaqDisclosure question={faq.faqTopic1.Q3.question}>
-              <ol>
-                <li>{faq.faqTopic1.Q3.answer1}</li>
-                <li>{faq.faqTopic1.Q3.answer2}</li>
-              </ol>
-            </FaqDisclosure>
+          {/* Question 1.3 */}
+          <FaqDisclosure question={faq.faqTopic1.Q3.question}>
+            <ol>
+              <li>{faq.faqTopic1.Q3.answer1}</li>
+              <li>{faq.faqTopic1.Q3.answer2}</li>
+            </ol>
+          </FaqDisclosure>
 
-            {/* Question 1.4 */}
-            <FaqDisclosure question={faq.faqTopic1.Q4.question}>
-              <ol>
-                <li>{faq.faqTopic1.Q4.answer1}</li>
-                <li>{faq.faqTopic1.Q4.answer2}</li>
-                <li>{faq.faqTopic1.Q4.answer3}</li>
-              </ol>
-            </FaqDisclosure>
+          {/* Question 1.4 */}
+          <FaqDisclosure question={faq.faqTopic1.Q4.question}>
+            <ol>
+              <li>{faq.faqTopic1.Q4.answer1}</li>
+              <li>{faq.faqTopic1.Q4.answer2}</li>
+              <li>{faq.faqTopic1.Q4.answer3}</li>
+            </ol>
+          </FaqDisclosure>
 
-            {/* Question 1.5 */}
-            <FaqDisclosure question={faq.faqTopic1.Q5.question}>
-              <ol>
-                <li>{faq.faqTopic1.Q5.answer1}</li>
-                <li>{faq.faqTopic1.Q5.answer2}</li>
-              </ol>
-            </FaqDisclosure>
+          {/* Question 1.5 */}
+          <FaqDisclosure question={faq.faqTopic1.Q5.question}>
+            <ol>
+              <li>{faq.faqTopic1.Q5.answer1}</li>
+              <li>{faq.faqTopic1.Q5.answer2}</li>
+            </ol>
+          </FaqDisclosure>
 
-            {/* Question 1.6 */}
-            <FaqDisclosure question={faq.faqTopic1.Q6.question}>
-              <ol>
-                <li>{faq.faqTopic1.Q6.answer1}</li>
-                <li>{faq.faqTopic1.Q6.answer2}</li>
-                <li>{faq.faqTopic1.Q6.answer3}</li>
-                <li>{faq.faqTopic1.Q6.answer4}</li>
-                <li>{faq.faqTopic1.Q6.answer5}</li>
-              </ol>
-            </FaqDisclosure>
+          {/* Question 1.6 */}
+          <FaqDisclosure question={faq.faqTopic1.Q6.question}>
+            <ol>
+              <li>{faq.faqTopic1.Q6.answer1}</li>
+              <li>{faq.faqTopic1.Q6.answer2}</li>
+              <li>{faq.faqTopic1.Q6.answer3}</li>
+              <li>{faq.faqTopic1.Q6.answer4}</li>
+              <li>{faq.faqTopic1.Q6.answer5}</li>
+            </ol>
+          </FaqDisclosure>
 
-            {/* Question 1.7 */}
-            <FaqDisclosure question={faq.faqTopic1.Q7.question}>
-              <p>{faq.faqTopic1.Q7.answer1}</p>
-            </FaqDisclosure>
-          </div>
-          <div>
-            {/* Question 1.8 */}
-            <FaqDisclosure question={faq.faqTopic1.Q8.question}>
-              <ol>
-                <li>{faq.faqTopic1.Q8.answer1}</li>
-                <li>{faq.faqTopic1.Q8.answer2}</li>
-                <li>{faq.faqTopic1.Q8.answer3}</li>
-                <li>{faq.faqTopic1.Q8.answer4}</li>
-                <li>{faq.faqTopic1.Q8.answer5}</li>
-              </ol>
-              <p>{faq.faqTopic1.Q8.answer6}</p>
-              <ol>
-                <li>{faq.faqTopic1.Q8.answer7}</li>
-                <li>{faq.faqTopic1.Q8.answer8}</li>
-                <li>{faq.faqTopic1.Q8.answer9}</li>
-                <li>{faq.faqTopic1.Q8.answer10}</li>
-                <li>{faq.faqTopic1.Q8.answer11}</li>
-                <li>{faq.faqTopic1.Q8.answer12}</li>
-                <li>{faq.faqTopic1.Q8.answer13}</li>
-                <li>{faq.faqTopic1.Q8.answer14}</li>
-              </ol>
-              <p>{faq.faqTopic1.Q8.answer15}</p>
-              <ol>
-                <li>{faq.faqTopic1.Q8.answer16}</li>
-                <li>{faq.faqTopic1.Q8.answer17}</li>
-                <li>{faq.faqTopic1.Q8.answer18}</li>
-                <li>{faq.faqTopic1.Q8.answer19}</li>
-                <li>{faq.faqTopic1.Q8.answer20}</li>
-                <li>{faq.faqTopic1.Q8.answer21}</li>
-                <li>{faq.faqTopic1.Q8.answer22}</li>
-                <li>{faq.faqTopic1.Q8.answer23}</li>
-                <li>{faq.faqTopic1.Q8.answer24}</li>
-              </ol>
-              <p>{faq.faqTopic1.Q8.answer25}</p>
-            </FaqDisclosure>
+          {/* Question 1.7 */}
+          <FaqDisclosure question={faq.faqTopic1.Q7.question}>
+            <p>{faq.faqTopic1.Q7.answer1}</p>
+          </FaqDisclosure>
 
-            {/* Question 1.9 */}
-            <FaqDisclosure question={faq.faqTopic1.Q9.question}>
-              <p>{faq.faqTopic1.Q9.answer1}</p>
-            </FaqDisclosure>
+          {/* Question 1.8 */}
+          <FaqDisclosure question={faq.faqTopic1.Q8.question}>
+            <ol>
+              <li>{faq.faqTopic1.Q8.answer1}</li>
+              <li>{faq.faqTopic1.Q8.answer2}</li>
+              <li>{faq.faqTopic1.Q8.answer3}</li>
+              <li>{faq.faqTopic1.Q8.answer4}</li>
+              <li>{faq.faqTopic1.Q8.answer5}</li>
+            </ol>
+            <p>{faq.faqTopic1.Q8.answer6}</p>
+            <ol>
+              <li>{faq.faqTopic1.Q8.answer7}</li>
+              <li>{faq.faqTopic1.Q8.answer8}</li>
+              <li>{faq.faqTopic1.Q8.answer9}</li>
+              <li>{faq.faqTopic1.Q8.answer10}</li>
+              <li>{faq.faqTopic1.Q8.answer11}</li>
+              <li>{faq.faqTopic1.Q8.answer12}</li>
+              <li>{faq.faqTopic1.Q8.answer13}</li>
+              <li>{faq.faqTopic1.Q8.answer14}</li>
+            </ol>
+            <p>{faq.faqTopic1.Q8.answer15}</p>
+            <ol>
+              <li>{faq.faqTopic1.Q8.answer16}</li>
+              <li>{faq.faqTopic1.Q8.answer17}</li>
+              <li>{faq.faqTopic1.Q8.answer18}</li>
+              <li>{faq.faqTopic1.Q8.answer19}</li>
+              <li>{faq.faqTopic1.Q8.answer20}</li>
+              <li>{faq.faqTopic1.Q8.answer21}</li>
+              <li>{faq.faqTopic1.Q8.answer22}</li>
+              <li>{faq.faqTopic1.Q8.answer23}</li>
+              <li>{faq.faqTopic1.Q8.answer24}</li>
+            </ol>
+            <p>{faq.faqTopic1.Q8.answer25}</p>
+          </FaqDisclosure>
 
-            {/* Question 1.10 */}
-            <FaqDisclosure question={faq.faqTopic1.Q10.question}>
-              <p>{faq.faqTopic1.Q10.answer1}</p>
-            </FaqDisclosure>
+          {/* Question 1.9 */}
+          <FaqDisclosure question={faq.faqTopic1.Q9.question}>
+            <p>{faq.faqTopic1.Q9.answer1}</p>
+          </FaqDisclosure>
 
-            {/* Question 1.11 */}
-            <FaqDisclosure question={faq.faqTopic1.Q11.question}>
-              <ol>
-                <li>{faq.faqTopic1.Q11.answer1}</li>
-                <li>{faq.faqTopic1.Q11.answer2}</li>
-                <li>{faq.faqTopic1.Q11.answer3}</li>
-              </ol>
-              <p>{faq.faqTopic1.Q11.answer4}</p>
-              <p>{faq.faqTopic1.Q11.answer5}</p>
-            </FaqDisclosure>
+          {/* Question 1.10 */}
+          <FaqDisclosure question={faq.faqTopic1.Q10.question}>
+            <p>{faq.faqTopic1.Q10.answer1}</p>
+          </FaqDisclosure>
 
-            {/* Question 1.12 */}
-            <FaqDisclosure question={faq.faqTopic1.Q12.question}>
-              <p>{faq.faqTopic1.Q12.answer1}</p>
-              <p>{faq.faqTopic1.Q12.answer2}</p>
-              <ol>
-                <li>{faq.faqTopic1.Q12.answer3}</li>
-                <li>{faq.faqTopic1.Q12.answer4}</li>
-              </ol>
-              <p>{faq.faqTopic1.Q12.answer5}</p>
-              <ol>
-                <li>{faq.faqTopic1.Q12.answer6}</li>
-              </ol>
-              <p>{faq.faqTopic1.Q12.answer7}</p>
-              <ol>
-                <li>{faq.faqTopic1.Q12.answer8}</li>
-              </ol>
-              <p>{faq.faqTopic1.Q12.answer9}</p>
-              <ol>
-                <li>{faq.faqTopic1.Q12.answer10}</li>
-                <li>{faq.faqTopic1.Q12.answer11}</li>
-              </ol>
-              <p>{faq.faqTopic1.Q12.answer12}</p>
-            </FaqDisclosure>
+          {/* Question 1.11 */}
+          <FaqDisclosure question={faq.faqTopic1.Q11.question}>
+            <ol>
+              <li>{faq.faqTopic1.Q11.answer1}</li>
+              <li>{faq.faqTopic1.Q11.answer2}</li>
+              <li>{faq.faqTopic1.Q11.answer3}</li>
+            </ol>
+            <p>{faq.faqTopic1.Q11.answer4}</p>
+            <p>{faq.faqTopic1.Q11.answer5}</p>
+          </FaqDisclosure>
 
-            {/* Question 1.13 */}
-            <FaqDisclosure question={faq.faqTopic1.Q13.question}>
-              <ol>
-                <li>{faq.faqTopic1.Q13.answer1}</li>
-                <li>{faq.faqTopic1.Q13.answer2}</li>
-              </ol>
-              <p>{faq.faqTopic1.Q13.answer3}</p>
-              <ol>
-                <li>{faq.faqTopic1.Q13.answer4}</li>
-                <li>{faq.faqTopic1.Q13.answer5}</li>
-              </ol>
-            </FaqDisclosure>
+          {/* Question 1.12 */}
+          <FaqDisclosure question={faq.faqTopic1.Q12.question}>
+            <p>{faq.faqTopic1.Q12.answer1}</p>
+            <p>{faq.faqTopic1.Q12.answer2}</p>
+            <ol>
+              <li>{faq.faqTopic1.Q12.answer3}</li>
+              <li>{faq.faqTopic1.Q12.answer4}</li>
+            </ol>
+            <p>{faq.faqTopic1.Q12.answer5}</p>
+            <ol>
+              <li>{faq.faqTopic1.Q12.answer6}</li>
+            </ol>
+            <p>{faq.faqTopic1.Q12.answer7}</p>
+            <ol>
+              <li>{faq.faqTopic1.Q12.answer8}</li>
+            </ol>
+            <p>{faq.faqTopic1.Q12.answer9}</p>
+            <ol>
+              <li>{faq.faqTopic1.Q12.answer10}</li>
+              <li>{faq.faqTopic1.Q12.answer11}</li>
+            </ol>
+            <p>{faq.faqTopic1.Q12.answer12}</p>
+          </FaqDisclosure>
 
-            {/* Question 1.14 */}
-            <FaqDisclosure question={faq.faqTopic1.Q14.question}>
-              <ol>
-                <li>{faq.faqTopic1.Q14.answer1}</li>
-                <li>{faq.faqTopic1.Q14.answer2}</li>
-                <li>{faq.faqTopic1.Q14.answer3}</li>
-                <li>{faq.faqTopic1.Q14.answer4}</li>
-                <li>{faq.faqTopic1.Q14.answer5}</li>
-              </ol>
-              <p>{faq.faqTopic1.Q14.answer6}</p>
-              <ol>
-                <li>{faq.faqTopic1.Q14.answer7}</li>
-                <li>{faq.faqTopic1.Q14.answer8}</li>
-              </ol>
-            </FaqDisclosure>
-          </div>
+          {/* Question 1.13 */}
+          <FaqDisclosure question={faq.faqTopic1.Q13.question}>
+            <ol>
+              <li>{faq.faqTopic1.Q13.answer1}</li>
+              <li>{faq.faqTopic1.Q13.answer2}</li>
+            </ol>
+            <p>{faq.faqTopic1.Q13.answer3}</p>
+            <ol>
+              <li>{faq.faqTopic1.Q13.answer4}</li>
+              <li>{faq.faqTopic1.Q13.answer5}</li>
+            </ol>
+          </FaqDisclosure>
+
+          {/* Question 1.14 */}
+          <FaqDisclosure question={faq.faqTopic1.Q14.question}>
+            <ol>
+              <li>{faq.faqTopic1.Q14.answer1}</li>
+              <li>{faq.faqTopic1.Q14.answer2}</li>
+              <li>{faq.faqTopic1.Q14.answer3}</li>
+              <li>{faq.faqTopic1.Q14.answer4}</li>
+              <li>{faq.faqTopic1.Q14.answer5}</li>
+            </ol>
+            <p>{faq.faqTopic1.Q14.answer6}</p>
+            <ol>
+              <li>{faq.faqTopic1.Q14.answer7}</li>
+              <li>{faq.faqTopic1.Q14.answer8}</li>
+            </ol>
+          </FaqDisclosure>
         </dl>
       </section>
+
       {/* FAQ Topic 2 */}
       <section>
         <h2>{faq.faqTopic2.heading}</h2>
-        <dl>
-          <div>
-            {/* Question 2.1 */}
-            <FaqDisclosure question={faq.faqTopic2.Q1.question}>
-              <p>{faq.faqTopic2.Q1.answer1}</p>
-              <ol>
-                <li>{faq.faqTopic2.Q1.answer2}</li>
-                <li>{faq.faqTopic2.Q1.answer3}</li>
-                <li>{faq.faqTopic2.Q1.answer4}</li>
-              </ol>
-              <p>{faq.faqTopic2.Q1.answer5}</p>
-            </FaqDisclosure>
+        <dl className="grid gap-6">
+          {/* Question 2.1 */}
+          <FaqDisclosure question={faq.faqTopic2.Q1.question}>
+            <p>{faq.faqTopic2.Q1.answer1}</p>
+            <ol>
+              <li>{faq.faqTopic2.Q1.answer2}</li>
+              <li>{faq.faqTopic2.Q1.answer3}</li>
+              <li>{faq.faqTopic2.Q1.answer4}</li>
+            </ol>
+            <p>{faq.faqTopic2.Q1.answer5}</p>
+          </FaqDisclosure>
 
-            {/* Question 2.2 */}
-            <FaqDisclosure question={faq.faqTopic2.Q2.question}>
-              <ol>
-                <li>{faq.faqTopic2.Q2.answer1}</li>
-                <li>{faq.faqTopic2.Q2.answer2}</li>
-                <li>{faq.faqTopic2.Q2.answer3}</li>
-                <li>{faq.faqTopic2.Q2.answer4}</li>
-              </ol>
-            </FaqDisclosure>
+          {/* Question 2.2 */}
+          <FaqDisclosure question={faq.faqTopic2.Q2.question}>
+            <ol>
+              <li>{faq.faqTopic2.Q2.answer1}</li>
+              <li>{faq.faqTopic2.Q2.answer2}</li>
+              <li>{faq.faqTopic2.Q2.answer3}</li>
+              <li>{faq.faqTopic2.Q2.answer4}</li>
+            </ol>
+          </FaqDisclosure>
 
-            {/* Question 2.3 */}
-            <FaqDisclosure question={faq.faqTopic2.Q3.question}>
-              <p>{faq.faqTopic2.Q3.answer1}</p>
-            </FaqDisclosure>
+          {/* Question 2.3 */}
+          <FaqDisclosure question={faq.faqTopic2.Q3.question}>
+            <p>{faq.faqTopic2.Q3.answer1}</p>
+          </FaqDisclosure>
 
-            {/* Question 2.4 */}
-            <FaqDisclosure question={faq.faqTopic2.Q4.question}>
-              <p>{faq.faqTopic2.Q4.answer1}</p>
-              <p>{faq.faqTopic2.Q4.answer2}</p>
-            </FaqDisclosure>
+          {/* Question 2.4 */}
+          <FaqDisclosure question={faq.faqTopic2.Q4.question}>
+            <p>{faq.faqTopic2.Q4.answer1}</p>
+            <p>{faq.faqTopic2.Q4.answer2}</p>
+          </FaqDisclosure>
 
-            {/* Question 2.5 */}
-            <FaqDisclosure question={faq.faqTopic2.Q5.question}>
-              <p>{faq.faqTopic2.Q5.answer1}</p>
-            </FaqDisclosure>
-          </div>
+          {/* Question 2.5 */}
+          <FaqDisclosure question={faq.faqTopic2.Q5.question}>
+            <p>{faq.faqTopic2.Q5.answer1}</p>
+          </FaqDisclosure>
 
-          <div>
-            {/* Question 2.6 */}
-            <FaqDisclosure question={faq.faqTopic2.Q6.question}>
-              <ol>
-                <li>{faq.faqTopic2.Q6.answer1}</li>
-                <li>{faq.faqTopic2.Q6.answer2}</li>
-              </ol>
-            </FaqDisclosure>
+          {/* Question 2.6 */}
+          <FaqDisclosure question={faq.faqTopic2.Q6.question}>
+            <ol>
+              <li>{faq.faqTopic2.Q6.answer1}</li>
+              <li>{faq.faqTopic2.Q6.answer2}</li>
+            </ol>
+          </FaqDisclosure>
 
-            {/* Question 2.7 */}
-            <FaqDisclosure question={faq.faqTopic2.Q7.question}>
-              <ol>
-                <li>{faq.faqTopic2.Q7.answer1}</li>
-                <li>{faq.faqTopic2.Q7.answer2}</li>
-                <li>{faq.faqTopic2.Q7.answer3}</li>
-                <li>{faq.faqTopic2.Q7.answer4}</li>
-              </ol>
-            </FaqDisclosure>
+          {/* Question 2.7 */}
+          <FaqDisclosure question={faq.faqTopic2.Q7.question}>
+            <ol>
+              <li>{faq.faqTopic2.Q7.answer1}</li>
+              <li>{faq.faqTopic2.Q7.answer2}</li>
+              <li>{faq.faqTopic2.Q7.answer3}</li>
+              <li>{faq.faqTopic2.Q7.answer4}</li>
+            </ol>
+          </FaqDisclosure>
 
-            {/* Question 2.8 */}
-            <FaqDisclosure question={faq.faqTopic2.Q8.question}>
-              <p>{faq.faqTopic2.Q8.answer1}</p>
-            </FaqDisclosure>
+          {/* Question 2.8 */}
+          <FaqDisclosure question={faq.faqTopic2.Q8.question}>
+            <p>{faq.faqTopic2.Q8.answer1}</p>
+          </FaqDisclosure>
 
-            {/* Question 2.9 */}
-            <FaqDisclosure question={faq.faqTopic2.Q9.question}>
-              <p>{faq.faqTopic2.Q9.answer1}</p>
-            </FaqDisclosure>
-          </div>
+          {/* Question 2.9 */}
+          <FaqDisclosure question={faq.faqTopic2.Q9.question}>
+            <p>{faq.faqTopic2.Q9.answer1}</p>
+          </FaqDisclosure>
         </dl>
       </section>
 
