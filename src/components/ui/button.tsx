@@ -3,9 +3,9 @@ import clsx from "clsx";
 
 const variantStyles = {
   primary:
-    "bg-teal-600 font-semibold text-white shadow-sm hover:bg-teal-500 focus-visible:outline focus-visible:outline-2",
+    "bg-teal-600 text-sm font-semibold text-white shadow-sm hover:bg-teal-500",
   secondary:
-    "bg-white font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50",
+    "bg-white text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50",
 };
 
 type ButtonProps = {
@@ -21,13 +21,13 @@ export default function Button({
   ...props
 }: ButtonProps) {
   className = clsx(
-    "inline-flex items-center gap-2 justify-center rounded-md px-3.5 py-2.5 transition active:transition-none focus-visible:outline-offset-2 focus-visible:outline-indigo-600",
+    "inline-flex items-center justify-center gap-2 rounded-md px-3.5 py-2.5 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 active:transition-none",
     variantStyles[variant],
     className,
   );
 
   return typeof props.href === "undefined" ? (
-    <button className={className} {...props} />
+    <button className="{className}" {...props} />
   ) : (
     <Link className={className} {...props} />
   );
