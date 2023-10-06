@@ -18,18 +18,16 @@ export default async function Page({
 
   return (
     <>
-      <section>
-        <div>
-          <h1>{faq.heading}</h1>
-          <p>{faq.description}</p>
-        </div>
-      </section>
+      <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+        <h1 className="mb-4 text-5xl">{faq.heading}</h1>
+        <p>{faq.description}</p>
+      </div>
+
       {/* FAQ Topic 1 */}
-      <section>
-        <h2>{faq.faqTopic1.heading}</h2>
+      <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+        <h2 className="mb-6 text-xl">{faq.faqTopic1.heading}</h2>
         <dl>
-          {/* Left Grid */}
-          <div>
+          <div className="grid gap-6">
             {/* Question 1.1 */}
             <FaqDisclosure question={faq.faqTopic1.Q1.question}>
               <ol>
@@ -89,7 +87,6 @@ export default async function Page({
               <p>{faq.faqTopic1.Q7.answer1}</p>
             </FaqDisclosure>
           </div>
-          {/* Right Grid */}
           <div>
             {/* Question 1.8 */}
             <FaqDisclosure question={faq.faqTopic1.Q8.question}>
@@ -206,7 +203,6 @@ export default async function Page({
       <section>
         <h2>{faq.faqTopic2.heading}</h2>
         <dl>
-          {/* Left Grid */}
           <div>
             {/* Question 2.1 */}
             <FaqDisclosure question={faq.faqTopic2.Q1.question}>
@@ -245,7 +241,7 @@ export default async function Page({
               <p>{faq.faqTopic2.Q5.answer1}</p>
             </FaqDisclosure>
           </div>
-          {/* Right Grid */}
+
           <div>
             {/* Question 2.6 */}
             <FaqDisclosure question={faq.faqTopic2.Q6.question}>
@@ -282,7 +278,6 @@ export default async function Page({
       <section>
         <h2>{faq.faqTopic3.heading}</h2>
         <dl>
-          {/* Left Grid */}
           <div>
             {/* Question 3.1 */}
             <FaqDisclosure question={faq.faqTopic3.Q1.question}>
@@ -426,7 +421,6 @@ export default async function Page({
               <p>{faq.faqTopic3.Q15.answer2}</p>
             </FaqDisclosure>
           </div>
-          {/* Right Grid */}
           <div>
             {/* Question 3.16 */}
             <FaqDisclosure question={faq.faqTopic3.Q16.question}>
@@ -559,7 +553,6 @@ export default async function Page({
       <section>
         <h2>{faq.faqTopic4.heading}</h2>
         <dl>
-          {/* Left Grid */}
           <div>
             {/* Question 4.1 */}
             <FaqDisclosure question={faq.faqTopic4.Q1.question}>
@@ -580,7 +573,6 @@ export default async function Page({
               </ol>
             </FaqDisclosure>
           </div>
-          {/* Right Grid */}
           <div>
             {/* Question 4.3 */}
             <FaqDisclosure question={faq.faqTopic4.Q3.question}>
@@ -603,6 +595,7 @@ export default async function Page({
           </div>
         </dl>
       </section>
+
       {/* FAQ Topic 5 */}
       <section>
         <div>
@@ -610,7 +603,6 @@ export default async function Page({
           <p>{faq.faqTopic5.info}</p>
         </div>
         <dl>
-          {/* Left Grid */}
           <div>
             {/* Question 5.1 */}
             <FaqDisclosure question={faq.faqTopic5.Q1.question}>
@@ -685,7 +677,6 @@ export default async function Page({
               </ol>
             </FaqDisclosure>
           </div>
-          {/* Right Grid */}
           <div>
             {/* Question 5.11 */}
             <FaqDisclosure question={faq.faqTopic5.Q11.question}>

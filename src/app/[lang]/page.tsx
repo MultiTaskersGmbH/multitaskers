@@ -14,15 +14,15 @@ export default async function Page({
 
   return (
     <>
-      <div className="mx-auto max-w-7xl px-4 pt-6 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 md:pt-24 lg:px-8">
         <div className="md:grid md:grid-cols-2 md:gap-6">
           {/* hero-section */}
-          <section className="pb-12 pt-24 md:max-w-lg md:pb-0 lg:max-w-xl">
+          <section className="pb-12 pt-24 md:max-w-lg md:pb-0 md:pt-0 lg:max-w-xl">
             <h1 className="mb-4 text-5xl">{home.hero.heading}</h1>
             <p className="mb-8">{home.hero.description}</p>
             <Button href={`/${lang}/courses`}>{home.hero.linkButton}</Button>
           </section>
-          <div className="md:sticky md:top-4 ">
+          <div className="pb-24 md:sticky md:top-4 md:pb-0">
             <Image
               className="w-full rounded-md"
               src="/images/hero-image.jpeg"
@@ -43,7 +43,7 @@ export default async function Page({
       </div>
 
       {/* benefits-section */}
-      <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+      <section className="mx-auto max-w-7xl px-4 pb-24 pt-12 sm:px-6 lg:px-8">
         <h3 className="mb-2">{home.benefits.heading}</h3>
         <div className="grid gap-6 md:grid-cols-2">
           {home.benefits.list.map((benefit) => (
@@ -75,7 +75,7 @@ export default async function Page({
       </section>
 
       {/* team-section */}
-      <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+      <section className="mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8">
         <div className="pb-12 md:max-w-lg lg:max-w-xl">
           <h2 className="mb-2">{home.team.heading}</h2>
           <p className="mb-4 text-4xl">{home.team.title}</p>
