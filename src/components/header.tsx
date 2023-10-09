@@ -11,6 +11,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useState } from "react";
 
 import LocaleSwitcher from "@/components/locale-switcher";
+import Button from "./ui/button";
 
 type DictionaryType = Record<string, string>;
 
@@ -74,12 +75,7 @@ export default function Header({
           >
             {dictionary.menu.team}
           </Link>
-          <Link
-            href={`/${lang}/courses`}
-            className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-          >
-            {dictionary.menu.courses}
-          </Link>
+          <Button href={`/${lang}/courses`}>{dictionary.menu.courses}</Button>
           <LocaleSwitcher />
         </div>
       </nav>
