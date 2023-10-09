@@ -66,7 +66,7 @@ export default function Footer({
               href={item.href}
               target="_blank"
               key={item.name}
-              rel="nofollow noopener noreferrer"
+              rel="noopener noreferrer"
             >
               <span className="sr-only">{item.name}</span>
               <Image alt="" src={item.src} width={50} height={50} />
