@@ -15,9 +15,9 @@ export default async function Page({
   return (
     <>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 md:pt-24 lg:px-8">
-        <div className="md:grid md:grid-cols-2 md:gap-6">
+        <div className="md:grid md:grid-cols-2 md:gap-8 lg:gap-12">
           {/* hero-section */}
-          <section className="pb-12 pt-24 md:max-w-lg md:pb-0 md:pt-0 lg:max-w-xl">
+          <section className="pb-12 pt-24 md:max-w-md md:pb-0 md:pt-0 lg:max-w-xl">
             <h1 className="mb-4 text-5xl">{home.hero.heading}</h1>
             <p className="mb-8">{home.hero.description}</p>
             <Button href={`/${lang}/courses`}>{home.hero.linkButton}</Button>
@@ -33,7 +33,7 @@ export default async function Page({
           </div>
 
           {/* course-section */}
-          <section className="pt-24  md:max-w-lg md:pt-0 lg:max-w-xl">
+          <section className="pt-24  md:max-w-md md:pt-0 lg:max-w-xl">
             <h2 className="mb-2">{home.courses.heading}</h2>
             <p className="mb-4 text-4xl">{home.courses.title}</p>
             <p className="mb-8">{home.courses.description}</p>
@@ -76,7 +76,7 @@ export default async function Page({
 
       {/* team-section */}
       <section className="mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8">
-        <div className="pb-12 md:max-w-lg lg:max-w-xl">
+        <div className="pb-12 md:max-w-md lg:max-w-xl">
           <h2 className="mb-2">{home.team.heading}</h2>
           <p className="mb-4 text-4xl">{home.team.title}</p>
           <p className="mb-8">{home.team.description}</p>
