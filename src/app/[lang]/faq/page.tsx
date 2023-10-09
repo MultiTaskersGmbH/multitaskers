@@ -21,7 +21,7 @@ export default async function Page({
     <>
       <div className="mx-auto max-w-7xl px-4 pb-12 pt-24 sm:px-6 lg:px-8">
         <div className="md:max-w-lg lg:max-w-xl">
-          <h1 className="mb-4 text-5xl">{faq.heading}</h1>
+          <h1 className="mb-4 text-5xl lg:text-6xl">{faq.heading}</h1>
           <p className="mb-8">{faq.description}</p>
           <Button href={`/${lang}/courses`}>{faq.linkButton}</Button>
         </div>

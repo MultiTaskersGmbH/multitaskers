@@ -576,6 +576,7 @@
   "team": {
     "heading": "Meet our teachers",
     "description": "Our teachers are experienced, dedicated, and passionate about teaching. They are also friendly, patient, and supportive. Many of them are native speakers of the language they teach. They will help you achieve your language learning goals and make learning fun and enjoyable.",
+    "linkButton": "Our courses",
     "list": [
       {
         "image": "/images/team/aline.jpeg",
@@ -596,7 +597,7 @@
         "imageAlt": "Andi, a teacher at MultiTaskers Language School",
         "firstName": "Andi",
         "role": "Teacher",
-        "bio": " English teacher for teenagers and adults. She teaches general and business English courses for adults and general and conversation classes for teenagers, online and offline. Choose from A1 to C1 CEFR levels, one-to-one or group lessons and enjoy learning English with Andi! \"What I enjoy the most about teaching is the caliber of people I get to work with, everyone is so different, their likes, histories and stories. Also, I can't express enough the joy I get when I see their eyes light up and they learn something new or come to some new understanding\""
+        "bio": " English teacher for teenagers and adults. He teaches general and business English courses for adults and general and conversation classes for teenagers, online and offline. Choose from A1 to C1 CEFR levels, one-to-one or group lessons and enjoy learning English with Andi! \"What I enjoy the most about teaching is the caliber of people I get to work with, everyone is so different, their likes, histories and stories. Also, I can't express enough the joy I get when I see their eyes light up and they learn something new or come to some new understanding\""
       },
       {
         "image": "/images/team/angelina.jpeg",
@@ -641,7 +642,7 @@
         "bio": "German and English teacher for kids, teens and adults. With over 10 years of experience, Christina holds courses of levels A1 - C1 CEFR. In her classes the emphasis is on speaking and grammar, and courses are steeped in the features and culture of the target language country. Classes are held individually and in groups. She is certified in TESOL, DAFLL and has a master's degree in linguistics. \"I help kids and adults learn languages in a passionate and engaging way. I try to find individual approach to every student even in group courses and I will support you on your language journey to create your personal story of success\" \"If we teach today the way we taught yesterday, we deprive our children of tomorrow.\" - John Dewey"
       },
       {
-        "image": "/images/team/lovely-coolen.jpeg",
+        "image": "/images/team/lovely.jpeg",
         "imageAlt": "Lovely Coolen, a teacher at MultiTaskers Language School",
         "firstName": "Lovely Coolen",
         "role": "Teacher",
