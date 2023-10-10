@@ -617,8 +617,17 @@ export default async function Page({
             <FaqDisclosure question={faq.faqTopic5.Q1.question}>
               <ol className="grid list-inside list-disc gap-y-2">
                 <li>{faq.faqTopic5.Q1.answer1}</li>
-                <li>{faq.faqTopic5.Q1.answer2}</li>
-                <li>{faq.faqTopic5.Q1.answer3}</li>
+                <li>
+                  {faq.faqTopic5.Q1.answer2}{" "}
+                  <a
+                    className="font-semibold underline visited:text-purple-600"
+                    href={faq.faqTopic5.Q1.zoomLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {faq.faqTopic5.Q1.answer3}
+                  </a>
+                </li>
                 <li>{faq.faqTopic5.Q1.answer4}</li>
               </ol>
             </FaqDisclosure>
