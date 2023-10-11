@@ -46,7 +46,7 @@ export default function Header({
             priority
           />
         </Link>
-        <div className="flex lg:hidden">
+        <div className="flex md:hidden">
           <button
             type="button"
             className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
@@ -56,7 +56,7 @@ export default function Header({
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
-        <div className="hidden lg:flex lg:items-center lg:gap-x-12">
+        <div className="hidden md:flex md:items-center md:gap-x-12">
           <Link
             href={`/${lang}`}
             className="text-sm font-semibold leading-6 text-gray-900"
