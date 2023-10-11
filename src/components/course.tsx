@@ -25,45 +25,47 @@ export default function Course({ dictionary }: { dictionary: Dictionary }) {
           {({ open }) => (
             <>
               <dt>
-                <Disclosure.Button className="w-full text-left">
-                  <div
-                    key={course.heading}
-                    className="md:grid md:grid-cols-5 md:gap-8"
-                  >
-                    <Image
-                      src={course.image}
-                      alt={course.imageAlt}
-                      width={900}
-                      height={600}
-                      className=" aspect-[3/2] w-full rounded-md object-cover md:col-span-2"
-                    />
-                    <div className="grid gap-y-8 md:col-span-3">
-                      <div>
-                        <h2 className="text-xl font-semibold">
-                          {course.heading}
-                        </h2>
-                        <p className="mb-2">{course.scheduleTitle}</p>
-                        <ul className="grid gap-y-1">
-                          {course.scheduleContent.map((content: string) => (
-                            <li key={content}>{content}</li>
-                          ))}
-                        </ul>
-                      </div>
-                      <div>{open ? <p>Close goals</p> : <p>See goals</p>}</div>
+                <div
+                  key={course.heading}
+                  className="md:grid md:grid-cols-5 md:gap-8"
+                >
+                  <Image
+                    src={course.image}
+                    alt={course.imageAlt}
+                    width={900}
+                    height={600}
+                    className=" aspect-[3/2] w-full rounded-md object-cover md:col-span-2"
+                  />
+                  <div className="grid gap-y-8 md:col-span-3">
+                    <div>
+                      <h2 className="text-xl font-semibold">
+                        {course.heading}
+                      </h2>
+                      <p className="mb-2">{course.scheduleTitle}</p>
+                      <ul className="grid gap-y-1">
+                        {course.scheduleContent.map((content: string) => (
+                          <li key={content}>{content}</li>
+                        ))}
+                      </ul>
                     </div>
+                    <Disclosure.Panel className="mt-2">
+                      <p>{course.goalTitle}</p>
+                      <ul className="grid gap-y-1">
+                        {course.goalContent.map((content: string) => (
+                          <li className="list-inside list-disc" key={content}>
+                            {content}
+                          </li>
+                        ))}
+                      </ul>
+                    </Disclosure.Panel>
+                    <Disclosure.Button>
+                      <div className="text-right font-semibold uppercase underline">
+                        {open ? "Close goals" : "See goals"}
+                      </div>
+                    </Disclosure.Button>
                   </div>
-                </Disclosure.Button>
+                </div>
               </dt>
-              <Disclosure.Panel className="mt-2">
-                <p>{course.goalTitle}</p>
-                <ul className="grid gap-y-1">
-                  {course.goalContent.map((content: string) => (
-                    <li className="list-inside list-disc" key={content}>
-                      {content}
-                    </li>
-                  ))}
-                </ul>
-              </Disclosure.Panel>
             </>
           )}
         </Disclosure>
