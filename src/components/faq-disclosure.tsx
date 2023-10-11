@@ -18,7 +18,7 @@ export default function FaqDisclosure({
       {({ open }) => (
         <>
           <dt>
-            <Disclosure.Button className="flex w-full items-start justify-between text-left text-gray-900">
+            <Disclosure.Button className="flex w-full items-start justify-between text-left">
               <h3 className="text-base font-semibold leading-7">{question}</h3>
               <span className="ml-6 flex h-7 items-center">
                 {open ? (

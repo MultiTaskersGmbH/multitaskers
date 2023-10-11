@@ -1,7 +1,7 @@
-import Image from "next/image";
-
 import { getDictionary } from "@/lib/getDictionary";
 import type { Locale } from "i18n.config";
+
+import CoursesDisclosure from "@/components/courses-disclosure";
 
 import type { Metadata } from "next";
 
@@ -18,29 +18,15 @@ export default async function Page({
 
   return (
     <>
-      <div>
-        <h1>{courses.heading}</h1>
-        <p>{courses.description}</p>
-      </div>
-      {courses.list.map((course) => (
-        <div key={course.heading}>
-          <Image
-            src={course.image}
-            alt={course.imageAlt}
-            width={300}
-            height={200}
-          />
-          <div>
-            <h2>{course.heading}</h2>
-            <p>{course.scheduleTitle}</p>
-            <ul>
-              {course.scheduleContent.map((content) => (
-                <li key={content}>{content}</li>
-              ))}
-            </ul>
-          </div>
+      <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+        <div className="mx-auto text-center md:max-w-xl">
+          <h1 className="mb-4 text-5xl lg:text-6xl">{courses.heading}</h1>
+          <p>{courses.description}</p>
         </div>
-      ))}
+      </div>
+      <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+        <CoursesDisclosure dictionary={courses} />
+      </div>
     </>
   );
 }
