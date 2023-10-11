@@ -17,11 +17,7 @@ interface Dictionary {
   list: Course[];
 }
 
-export default function CoursesDisclosure({
-  dictionary,
-}: {
-  dictionary: Dictionary;
-}) {
+export default function Course({ dictionary }: { dictionary: Dictionary }) {
   return (
     <dl className="space-y-6 divide-y divide-gray-900/10">
       {dictionary.list.map((course: Course) => (
@@ -47,8 +43,8 @@ export default function CoursesDisclosure({
                           {course.heading}
                         </h2>
                         <p className="mb-2">{course.scheduleTitle}</p>
-                        <ul className="grid-y-2 grid">
-                          {course.scheduleContent?.map((content: string) => (
+                        <ul className="grid gap-y-1">
+                          {course.scheduleContent.map((content: string) => (
                             <li key={content}>{content}</li>
                           ))}
                         </ul>
@@ -60,9 +56,11 @@ export default function CoursesDisclosure({
               </dt>
               <Disclosure.Panel className="mt-2">
                 <p>{course.goalTitle}</p>
-                <ul className="grid-y-2 grid">
-                  {course.goalContent?.map((content: string) => (
-                    <li key={content}>{content}</li>
+                <ul className="grid gap-y-1">
+                  {course.goalContent.map((content: string) => (
+                    <li className="list-inside list-disc" key={content}>
+                      {content}
+                    </li>
                   ))}
                 </ul>
               </Disclosure.Panel>

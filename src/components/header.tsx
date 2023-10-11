@@ -10,7 +10,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 import { useState } from "react";
 
-import LocaleSwitcher from "@/components/locale-switcher";
+import LocaleSwitcher from "@/components/ui/locale-switcher";
 import Button from "./ui/button";
 
 type DictionaryType = Record<string, string>;

@@ -3,7 +3,7 @@
 import { Disclosure } from "@headlessui/react";
 import { MinusSmallIcon, PlusSmallIcon } from "@heroicons/react/24/outline";
 
-export default function FaqDisclosure({
+export default function Faq({
   question,
   children,
 }: {

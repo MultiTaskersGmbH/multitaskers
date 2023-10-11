@@ -1,7 +1,7 @@
 import { getDictionary } from "@/lib/getDictionary";
 import type { Locale } from "i18n.config";
 
-import CoursesDisclosure from "@/components/courses-disclosure";
+import Course from "@/components/course";
 
 import type { Metadata } from "next";
 
@@ -25,7 +25,7 @@ export default async function Page({
         </div>
       </div>
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-        <CoursesDisclosure dictionary={courses} />
+        <Course dictionary={courses} />
       </div>
     </>
   );
