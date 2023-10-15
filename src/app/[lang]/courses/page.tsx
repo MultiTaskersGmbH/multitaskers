@@ -24,7 +24,7 @@ export default async function Page({
           <p>{courses.description}</p>
         </div>
       </div>
-      <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
         <Course dictionary={courses} />
       </div>
     </>

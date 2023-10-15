@@ -26,16 +26,16 @@ export default function Course({ dictionary }: { dictionary: Dictionary }) {
             <>
               <dt
                 key={course.heading}
-                className="grid gap-4 md:grid-cols-5 md:gap-8"
+                className="grid gap-4 md:grid-cols-12 md:gap-8"
               >
                 <Image
                   src={course.image}
                   alt={course.imageAlt}
-                  width={900}
-                  height={600}
-                  className=" aspect-[3/2] w-full rounded-md object-cover md:col-span-2"
+                  width={600}
+                  height={900}
+                  className="aspect-square w-full rounded-md object-cover md:col-span-4 md:aspect-[4/5]"
                 />
-                <div className="grid gap-y-8 md:col-span-3">
+                <div className="grid gap-y-8 md:col-span-8">
                   <div>
                     <h2 className="text-xl font-semibold">{course.heading}</h2>
                     <p className="mb-2">{course.scheduleTitle}</p>
