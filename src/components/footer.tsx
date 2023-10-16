@@ -45,9 +45,12 @@ export default function Footer({
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer>
-      <div>
-        <nav aria-label="Footer">
+    <footer className="mx-auto max-w-7xl px-4 sm:px-6 md:pt-24 lg:px-8">
+      <div className="py-12">
+        <nav
+          aria-label="Footer"
+          className="mb-10 flex flex-wrap justify-center gap-6"
+        >
           <Link href={`/${lang}`}>{dictionary.menu.home}</Link>
           <Link href={`/${lang}/faq`}>{dictionary.menu.faq}</Link>
           <Link href={`/${lang}/team`}>{dictionary.menu.team}</Link>
@@ -60,20 +63,28 @@ export default function Footer({
             {dictionary.menu.terms}
           </Link>
         </nav>
-        <div>
+        <div className="mb-10 flex items-center justify-center gap-6">
           {social.map((item) => (
             <Link
               href={item.href}
               target="_blank"
               key={item.name}
               rel="noopener noreferrer"
+              className="transform transition-transform hover:scale-90"
             >
-              <span className="sr-only">{item.name}</span>
-              <Image alt="" src={item.src} width={50} height={50} />
+              <Image
+                alt={`${item.name} logo`}
+                src={item.src}
+                width={50}
+                height={50}
+                className="h-9 w-full"
+              />
             </Link>
           ))}
         </div>
-        <p>&copy; {currentYear} MultiTaskers GmbH. All rights reserved.</p>
+        <p className="text-center">
+          &copy; {currentYear} MultiTaskers GmbH. All rights reserved.
+        </p>
       </div>
     </footer>
   );

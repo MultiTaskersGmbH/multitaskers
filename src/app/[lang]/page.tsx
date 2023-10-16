@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import { getDictionary } from "@/lib/getDictionary";
-import Button from "@/components/ui/button";
+import Button from "@/components/button";
 
 import { CheckBadgeIcon } from "@heroicons/react/24/solid";
 

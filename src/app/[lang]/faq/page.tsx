@@ -4,7 +4,7 @@ import type { Locale } from "i18n.config";
 import Faq from "@/components/faq";
 
 import type { Metadata } from "next";
-import Button from "@/components/ui/button";
+import Button from "@/components/button";
 
 export const metadata: Metadata = {
   title: "FAQ",

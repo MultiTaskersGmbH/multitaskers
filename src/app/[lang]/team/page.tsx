@@ -4,7 +4,7 @@ import { getDictionary } from "@/lib/getDictionary";
 import type { Locale } from "i18n.config";
 
 import type { Metadata } from "next";
-import Button from "@/components/ui/button";
+import Button from "@/components/button";
 
 export const metadata: Metadata = {
   title: "Team",
