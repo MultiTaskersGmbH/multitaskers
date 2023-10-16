@@ -11,7 +11,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useState } from "react";
 
 import LocaleSwitcher from "@/components/locale-switcher";
-import Button from "./button";
+import Button from "@/components/button";
 
 type DictionaryType = Record<string, string>;
 
@@ -21,7 +21,6 @@ export default function Header({
 }: {
   lang: Locale;
   dictionary: {
-    logoSrOnly: string;
     logoImageAlt: string;
     menuOpenSrOnly: string;
     menuCloseSrOnly: string;
@@ -36,7 +35,6 @@ export default function Header({
         aria-label="Global"
       >
         <Link href={`/${lang}`} className="-m-1.5 p-1.5">
-          <span className=" sr-only">{dictionary.logoSrOnly}</span>
           <Image
             className="h-10 w-auto"
             src="/images/logo.png"
@@ -57,22 +55,13 @@ export default function Header({
           </button>
         </div>
         <div className="hidden md:flex md:items-center md:gap-x-12">
-          <Link
-            href={`/${lang}`}
-            className="text-sm font-semibold leading-6 text-gray-900"
-          >
+          <Link href={`/${lang}`} className="p-2 font-semibold">
             {dictionary.menu.home}
           </Link>
-          <Link
-            href={`/${lang}/faq`}
-            className="text-sm font-semibold leading-6 text-gray-900"
-          >
+          <Link href={`/${lang}/faq`} className="p-2 font-semibold">
             {dictionary.menu.faq}
           </Link>
-          <Link
-            href={`/${lang}/team`}
-            className="text-sm font-semibold leading-6 text-gray-900"
-          >
+          <Link href={`/${lang}/team`} className="p-2 font-semibold">
             {dictionary.menu.team}
           </Link>
           <Button href={`/${lang}/courses`}>{dictionary.menu.courses}</Button>
@@ -85,10 +74,9 @@ export default function Header({
         open={mobileMenuOpen}
         onClose={setMobileMenuOpen}
       >
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-4 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-4 py-6 sm:max-w-sm sm:px-6 sm:ring-1 sm:ring-gray-900/10 lg:px-8">
           <div className="flex items-center justify-between">
             <Link href={`/${lang}`} className="-m-1.5 p-1.5">
-              <span className="sr-only">{dictionary.logoSrOnly}</span>
               <Image
                 className="h-10 w-auto"
                 src="/images/logo.png"
@@ -99,7 +87,7 @@ export default function Header({
             </Link>
             <button
               type="button"
-              className="-m-2.5 rounded-md p-2.5 text-gray-700"
+              className="-m-2.5 rounded-md p-2.5"
               onClick={() => setMobileMenuOpen(false)}
             >
               <span className="sr-only">{dictionary.menuCloseSrOnly}</span>

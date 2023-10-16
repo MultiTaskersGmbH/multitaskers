@@ -2,10 +2,9 @@ import Link from "next/link";
 import clsx from "clsx";
 
 const variantStyles = {
-  primary:
-    "bg-[#85c7c9] text-sm font-semibold text-white shadow-sm hover:bg-teal-500",
+  primary: "bg-[#85c7c9] font-semibold text-white shadow-sm hover:bg-teal-500",
   secondary:
-    "bg-white text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50",
+    "bg-white font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50",
 };
 
 type ButtonProps = {

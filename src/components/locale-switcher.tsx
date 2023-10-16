@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { i18n } from "i18n.config";
+import { type Locale, i18n } from "i18n.config";
 
 export default function LocaleSwitcher() {
   const pathName = usePathname();
@@ -15,21 +15,17 @@ export default function LocaleSwitcher() {
   };
 
   return (
-    <div>
-      <ul className="flex gap-2">
-        {i18n.locales.map((locale) => {
-          return (
-            <li key={locale}>
-              <Link
-                className="rounded-md bg-black px-3 py-2 text-white"
-                href={redirectedPathName(locale)}
-              >
-                {locale}
-              </Link>
-            </li>
-          );
-        })}
-      </ul>
-    </div>
+    <ul className="flex gap-2">
+      {i18n.locales.map((locale: Locale) => (
+        <li key={locale}>
+          <Link
+            className="rounded-md bg-black px-3 py-2 text-white"
+            href={redirectedPathName(locale)}
+          >
+            {locale}
+          </Link>
+        </li>
+      ))}
+    </ul>
   );
 }
