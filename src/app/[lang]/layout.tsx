@@ -30,14 +30,14 @@ export default async function RootLayout({
   children: React.ReactNode;
   params: { lang: Locale };
 }) {
-  const dictionary = await getDictionary(lang);
+  const { navigation } = await getDictionary(lang);
 
   return (
     <html lang={lang}>
       <body className={`${inter.className} bg-slate-50`}>
-        <Header lang={lang} dictionary={dictionary.navigation} />
+        <Header lang={lang} dictionary={navigation} />
         <main>{children}</main>
-        <Footer lang={lang} dictionary={dictionary.navigation} />
+        <Footer lang={lang} dictionary={navigation} />
       </body>
     </html>
   );

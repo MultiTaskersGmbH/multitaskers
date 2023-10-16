@@ -77,7 +77,7 @@ export default function Footer({
                 src={item.src}
                 width={50}
                 height={50}
-                className="h-9 w-full"
+                className="h-9 w-auto"
               />
             </Link>
           ))}

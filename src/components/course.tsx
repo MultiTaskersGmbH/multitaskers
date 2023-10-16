@@ -3,10 +3,13 @@
 import { Disclosure } from "@headlessui/react";
 import Image from "next/image";
 
+import { InformationCircleIcon } from "@heroicons/react/24/solid";
+
 interface Course {
-  heading: string;
   image: string;
   imageAlt: string;
+  heading: string;
+  placementTest: string;
   scheduleTitle: string;
   scheduleContent: string[];
   goalTitle: string;
@@ -38,12 +41,16 @@ export default function Course({ dictionary }: { dictionary: Dictionary }) {
                 <div className="grid gap-y-8 md:col-span-8">
                   <div>
                     <h2 className="text-xl font-semibold">{course.heading}</h2>
-                    <p className="mb-2">{course.scheduleTitle}</p>
-                    <ul className="grid gap-y-1">
+                    <p className="mb-4">{course.scheduleTitle}</p>
+                    <ul className="mb-4 grid gap-y-1">
                       {course.scheduleContent.map((content: string) => (
                         <li key={content}>{content}</li>
                       ))}
                     </ul>
+                    <div className="flex gap-3">
+                      <InformationCircleIcon className="h-6 w-6 flex-shrink-0" />
+                      <p>{course.placementTest}</p>
+                    </div>
                   </div>
                   <Disclosure.Panel className="mt-2">
                     <p className="mb-1 font-semibold">{course.goalTitle}</p>
