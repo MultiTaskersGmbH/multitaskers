@@ -16,7 +16,7 @@ export default function Page() {
       <div className="grid gap-8 md:grid-cols-2 lg:gap-12">
         <h1 className="mb-6 text-5xl lg:text-6xl">Legal Notice</h1>
         <div>
-          <div className="pb-12">
+          <div className="mb-12">
             <h2 className="mb-6">
               Information pursuant to Sect. 5 German Telemedia Act (TMG)
             </h2>
@@ -38,7 +38,7 @@ export default function Page() {
             </p>
           </div>
 
-          <div className="pb-12">
+          <div className="mb-12">
             <h2 className="mb-4 text-3xl lg:text-4xl">Contact</h2>
             <ol className="grid gap-y-2">
               <li className="flex gap-2">
@@ -55,7 +55,7 @@ export default function Page() {
             </ol>
           </div>
 
-          <div className="pb-12">
+          <div className="mb-12">
             <h2 className="mb-4 text-3xl lg:text-4xl">VAT ID</h2>
             <p>
               Sales tax identification number according to Sect. 27 a of the
@@ -63,7 +63,7 @@ export default function Page() {
             </p>
           </div>
 
-          <div className="pb-12">
+          <div className="mb-12">
             <h2 className="mb-4 text-3xl lg:text-4xl">EU dispute resolution</h2>
             <p>
               The European Commission provides a platform for online dispute

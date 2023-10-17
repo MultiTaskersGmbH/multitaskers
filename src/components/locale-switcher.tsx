@@ -19,7 +19,7 @@ export default function LocaleSwitcher() {
       {i18n.locales.map((locale: Locale) => (
         <li key={locale}>
           <Link
-            className="rounded-md bg-black px-3 py-2 text-white"
+            className="rounded-md bg-black px-3.5 py-2.5 text-white"
             href={redirectedPathName(locale)}
           >
             {locale}
